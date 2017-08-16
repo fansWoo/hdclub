@@ -2039,7 +2039,6 @@ textarea {
 /*首頁告示板內頁*/
 
 .pg_viewthread .plc {
-    background: #e5e5e5;
     overflow: hidden;
 }
 
@@ -2438,7 +2437,11 @@ textarea {
     color: #ccc;
 }
 
-.p_pop .jump_bdl .sub.a a {
+.p_pop .jump_bdl.cl>li .sub.a>a {
+    color: #777;
+}
+
+.p_pop .jump_bdl.cl .a>a {
     color: #777;
 }
 
@@ -2780,6 +2783,13 @@ textarea {
 
 .pg_post .ct2_a .tb {
     margin-top: 0;
+}
+
+
+/*文章收藏*/
+
+.bbda.ptm.pbm>.y {
+    display: none;
 }
 
 
