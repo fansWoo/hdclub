@@ -2075,19 +2075,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{dpFW9A2c}
-{Xkk3LEI9}
-{sv3393pX}
-{HAi0YB7z}
-{VlTli1gf}
-{GgzU75hc}
+          'left' => '{zLVwFHpS}
+{WZB55n5D}
+{UdP7BBeX}
+{OswGq9SJ}
+{Tj696X6a}
+{F3oOUqLL}
 <dl class="pil cl">
-	<dt>{eGHLgRhB}</dt><dd>{IL13Y3s7}</dd>
+	<dt>{c9h17X1X}</dt><dd>{f9CnssWp}</dd>
 </dl>
-{hqkWHXdk}
-<dl class="pil cl">{KSS800E4}</dl>',
+{X8Yiw7ii}
+<dl class="pil cl">{TC1ccn4m}</dl>',
           'top' => '<dl class="cl">
-<dt>{To4G5D97}</dt><dd>{u3C36n4y}</dd>
+<dt>{DQ3GV0BO}</dt><dd>{Br2CFAEv}</dd>
 </dl>',
         ),
       ),
@@ -2097,70 +2097,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{dpFW9A2c}' => 
+            '{zLVwFHpS}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{Xkk3LEI9}' => 
+            '{WZB55n5D}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{sv3393pX}' => 
+            '{UdP7BBeX}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{HAi0YB7z}' => 
+            '{OswGq9SJ}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{VlTli1gf}' => 
+            '{Tj696X6a}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{GgzU75hc}' => 
+            '{F3oOUqLL}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{eGHLgRhB}' => 
+            '{c9h17X1X}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{IL13Y3s7}' => 
+            '{f9CnssWp}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{hqkWHXdk}' => 
+            '{X8Yiw7ii}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{KSS800E4}' => 
+            '{TC1ccn4m}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -2170,14 +2170,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{To4G5D97}' => 
+            '{DQ3GV0BO}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{u3C36n4y}' => 
+            '{Br2CFAEv}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -2202,10 +2202,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'C0z4Mi',
-      'password' => 'EkJ9uC',
-      'password2' => 'fl8AoA',
-      'email' => 's76uQR',
+      'username' => 'd6b4NL',
+      'password' => 'UZj2Kn',
+      'password2' => 'OdttTo',
+      'email' => 'iOecZW',
     ),
     'output' => 
     array (

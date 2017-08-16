@@ -73,3 +73,4 @@
 <?PHP exit;?>	1502857764	admin	1	127.0.0.1	setting	GET={edit=yes; anchor=seccode; operation=seccheck; settingnew={seccodedata={rule={register={timelimit=60; }; login={timeiptry=60; }; post={timelimit=60; }; password={}; card={}; }; width=100; height=30; }; secqaa={minposts=1; }; }; seccodehash=cSuROWqD; seccodemodid=admin; settingsubmit=提交; }; POST={anchor=seccode; operation=seccheck; settingnew={seccodedata={rule={register={timelimit=60; }; login={timeiptry=60; }; post={timelimit=60; }; password={}; card={}; }; width=100; height=30; }; secqaa={minposts=1; }; }; seccodehash=cSuROWqD; seccodemodid=admin; settingsubmit=提交; };
 <?PHP exit;?>	1502857767	admin	1	127.0.0.1	setting	GET={operation=seccheck; anchor=seccode; }; POST={};
 <?PHP exit;?>	1502876493	admin	1	127.0.0.1	tools	GET={operation=updatecache; step=3; type=data_tpl; }; POST={};
+<?PHP exit;?>	1502876558	admin	1	127.0.0.1	tools	GET={operation=updatecache; step=3; type=data_tpl; }; POST={};

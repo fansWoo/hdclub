@@ -67,6 +67,6 @@ $data = array (
     'bgcode' => 'background: #333 url("template/sxp_bbs_105s/image/bg3.jpg") repeat',
     'boardlogo' => '<img src="template/sxp_bbs_105s/image/logo.png" alt="Discuz! Board" border="0" />',
     'bold' => 'bold',
-    'verhash' => 'LBR',
+    'verhash' => 'GXb',
   ),
 );
