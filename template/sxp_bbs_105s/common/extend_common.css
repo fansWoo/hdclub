@@ -721,12 +721,9 @@ body {
 .pgs #newspecial,
 .pgs #newspecialtmp {
     float: left;
-    background: url("{STYLEIMGDIR}/pn_post.png") no-repeat 0 0 {
-        MENUBGCOLOR
-    }
-    ;
-    width:115px;
-    height:36px;
+    background: url("{STYLEIMGDIR}/pn_post.png") no-repeat 0 0;
+    width: 115px;
+    height: 36px;
 }
 
 #post_reply,
