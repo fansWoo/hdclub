@@ -1,0 +1,444 @@
+/* =========================
+
+Main CSS file for Discuz! Mobile
+
+Powered by www.shangxuepai.com / www.lovediscuz.com
+
+========================= */
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+optgroup,
+p,
+blockquote,
+figure,
+hr,
+menu,
+dir,
+thead,
+tbody,
+tfoot,
+th,
+td,
+i,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+
+/* --------------------- btn ---------------------- */
+
+.btn1,
+.btn2,
+.btn3,
+.btn_pn,
+.btn_pn_grey,
+.btn4,
+.btn5,
+.btn_qqlogin a {
+    width: 100%;
+    font-size: .32rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #fff !important;
+    background: #0080c1;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.btn2 {
+    background: #808080;
+}
+
+.btn3 {
+    background: #0080c1;
+}
+
+.btn4,
+.btn5 {
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .28rem;
+    width: 4rem;
+    margin: 0 auto;
+}
+
+.btn5 {
+    background: #ccc;
+    color: #333 !important;
+}
+
+.btn_pn {
+    background: #0080c1;
+}
+
+.btn_pn_grey {
+    /*background:#ddd;color:#ededed !important;*/
+}
+
+.btn_qqlogin {}
+
+.btn_qqlogin a {
+    background: #148063 url(../qq_login.png) 20% center no-repeat;
+    background-size: contain;
+    padding-left: 1rem;
+}
+
+
+/* --------------------- table ---------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0 none;
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    -ms-interpolation-mode: bicubic;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+
+/* --------------------- total ---------------------- */
+
+.cfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #0076f5;
+    letter-spacing: 0.5px;
+}
+
+.forumListTab li a {
+    color: #ededed;
+}
+
+.sxp_threadlist .cfix a {
+    color: #fff;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Microsoft Yahei', 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, sans-serif;
+    -ms-text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis;
+    text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis;
+    background: #ededed;
+    border-style: none;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var,
+i {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fl,
+.z {
+    float: left;
+}
+
+.fr,
+.y {
+    float: right;
+}
+
+.fr {
+    width: 100%;
+}
+
+.y {
+    padding-right: 5px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.wp60 {
+    width: 65%;
+}
+
+.wp50 {
+    width: 50%;
+}
+
+.wp25 {
+    width: 25%;
+}
+
+.wp35 {
+    width: 35%;
+}
+
+.tac {
+    text-align: center;
+}
+
+#page {
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.mt10 {
+    margin-top: .1rem;
+}
+
+.mb20 {
+    margin-bottom: .2rem !important;
+}
+
+.mt20 {
+    margin-top: 0;
+    top: 0.75rem;
+    position: relative;
+}
+
+.mt40 {
+    margin-top: .4rem;
+}
+
+.cf00 {
+    color: #f00;
+}
+
+.fs32 {
+    font-size: .32rem;
+}
+
+.none {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.pipe {
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.ssxp_pt60 {
+    padding-top: 0px;
+}
+
+.ssxp_pt100 {
+    padding-top: 35px;
+}
+
+
+/* --------------------- web ---------------------- */
+
+html,
+body {
+    height: 14px;
+    color: #403c3c;
+    background: #333;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+body {
+    font-size: .28rem;
+    line-height: 1.8;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+
+/* --------------------- html5 ---------------------- */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video,
+progress {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+/**/
+
+.ssxp_sublist {
+    line-height: 30px;
+}
+
+.ssxp_sublist li {
+    height: 30px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+
+/* --------------------- page ---------------------- */
+
+.page {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.page a {
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    padding: 5px 9px;
+    background: #FFF;
+}
+
+.page select {
+    border: 1px solid #CCC;
+    height: 28px;
+}
+
+
+/*頁碼*/
+
+.pg {
+    padding: 20px 0 20px 20px;
+    letter-spacing: 2px;
+}
+
+.pg strong {
+    color: #fff;
+    padding: 0 2px;
+}
+
+.pg input {
+    background: #EDEDED;
+    border-style: none;
+    margin-left: 10px;
+    font-size: .28rem;
+    padding-left: 4px;
+}
+
+.pg a {
+    color: #ccc;
+    padding-right: 3px;
+}
+
+.pg label span {
+    padding-right: 6px;
+}
+
+
+/*登入頁面*/
+
+.span_question {
+    color: #989898;
+}
+
+
+/*註冊頁面*/
+
+.txt.px.vm {
+    background: #ededed;
+}
+
+.sec_code .vm input {
+    background: #ededed;
+}
+
+.sec_code.vm {
+    margin-top: 10px;
+}
+
+.login_from .txt {
+    padding: 6px 0;
+    width: 100%;
+}

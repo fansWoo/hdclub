@@ -1,0 +1,48 @@
+<!--{template common/header}-->
+<!-- header start -->
+<header class="header">
+
+		<!--{if $_G['setting']['domain']['app']['mobile']}-->
+			{eval $nav = 'http://'.$_G['setting']['domain']['app']['mobile'];}
+		<!--{else}-->
+			{eval $nav = "forum.php";}
+		<!--{/if}-->
+		<h1 class="sxplogo fl"><a title="$_G[setting][bbname]" href="$nav"><img src="template/sxp_phone1/css/image/logo.png" /></a></h1>
+<div class="headul">
+
+			<!--{if $_G['setting']['mobile']['mobilehotthread']}-->
+<em><a class="menu4 fr" href="forum.php?mod=guide&view=hot" class="icon_hotthread">{lang hot_thread}</a></em>
+			<!--{/if}-->
+
+<em><a class="menu1 fr" href="search.php?mod=forum" class="icon_search">{lang search}</a></em>
+
+<em><a class="menu3 fr" href="<!--{if $_G[uid]}-->home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1<!--{else}-->member.php?mod=logging&action=login<!--{/if}-->" class="icon_userinfo">{lang user_info}</a></em><!--{if $_G[member][newpm]}--><span class="icon_msg"></span><!--{/if}-->
+<em><a class="menu2 fr" href="forum.php?forumlist=1" class="icon_threadlist">{lang forum_list}</a></em>
+
+</div>
+
+</header>
+<!-- header end -->
+	<div class="forumListTab cfix">
+		<ul>
+			<li $currentview['newthread']><a href="forum.php?mod=guide&view=newthread">{lang guide_newthread}</a></li>
+			<li $currentview['hot']><a href="forum.php?mod=guide&view=hot">{lang guide_hot}</a></li>
+			<li $currentview['digest']><a href="forum.php?mod=guide&view=digest">{lang guide_digest}</a></li>
+			<li $currentview['new']><a href="forum.php?mod=guide&view=new">{lang guide_new}</a></li>
+		</ul>
+	</div>
+<!-- main threadlist start -->
+<div class="threadlist">
+
+
+	<!--{loop $data $key $list}-->
+		<!--{subtemplate forum/guide_list_row}-->
+	<!--{/loop}-->
+
+</div>
+<!-- main threadlist end -->
+
+$multipage
+
+<div class="pullrefresh" style="display:none;"></div>
+<!--{template common/footer}-->

@@ -1,0 +1,39 @@
+				<!--{if $list['threadcount']}-->
+					<ul class="hotlist">
+						<!--{loop $list['threadlist'] $key $thread}-->
+							<li>
+									<a href="forum.php?mod=viewthread&tid=$thread[tid]&fromguid=hot&{if $_GET['archiveid']}archiveid={$_GET['archiveid']}&{/if}extra=$extra">
+										<!--{if !$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])}-->
+												<!--{eval $thread[tid]=$thread[closed];}-->
+										<!--{/if}-->
+										
+  <div class="sxp_threadlist">
+	  <ul>
+     
+      {if $thread['attachment'] == 2}
+      {eval $table='forum_attachment_'.substr($thread['tid'], -1);}
+      {eval $thread['aid'] = DB::result_first("SELECT aid FROM ".DB::table($table)." WHERE tid='$thread[tid]' AND isimage!='0'");}
+      {/if}
+      <li class="{if is_int($i/2)}d{/if} cfix"> <a href="forum.php?mod=viewthread&tid=$thread[tid]&extra=$extra" $thread[highlight] >
+
+      
+
+      {if $thread['aid']}
+      <img src="{eval echo(getforumimg($thread['aid'],0,180,140))}" class="sxp_cover"/>
+      {/if}
+      <h3>{$thread[subject]}</h3>
+      <p>$thread[author]<em>$thread[dateline]</em></p>
+      </a></li>
+      {eval $i++}
+
+
+
+		</ul>
+  </div>
+									</a>
+							</li>
+						<!--{/loop}-->
+					</ul>
+				<!--{else}-->
+					<p>{lang guide_nothreads}</p>
+				<!--{/if}-->
