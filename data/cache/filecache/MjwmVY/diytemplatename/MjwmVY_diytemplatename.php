@@ -4,5 +4,6 @@ $data = array (
   'data' => 
   array (
     'group/index' => '首頁',
+    'forum/discuz' => '論壇首頁',
   ),
 );
