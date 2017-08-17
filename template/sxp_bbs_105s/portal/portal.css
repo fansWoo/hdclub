@@ -121,6 +121,11 @@
     margin: -12px 0;
 }
 
+.ie_all .sxpmain5 #tebie6 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .sxpmain2 .sxpmain2_a ul li {
     background: url(image/sicon.png) no-repeat scroll left center;
     padding-left: 20px;

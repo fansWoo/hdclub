@@ -1187,12 +1187,16 @@ function showWindow(k, url, mode, cache, menuv) {
             if (BROWSER.ie && url.indexOf('referer=') < 0) {
                 url = url + '&referer=' + encodeURIComponent(location);
             }
-            ajaxget(url, 'fwin_content_' + k, null, '', '', function() { initMenu();
-                show(); });
+            ajaxget(url, 'fwin_content_' + k, null, '', '', function() {
+                initMenu();
+                show();
+            });
         } else if (mode == 'post') {
             menuObj.act = $(url).action;
-            ajaxpost(url, 'fwin_content_' + k, '', '', '', function() { initMenu();
-                show(); });
+            ajaxpost(url, 'fwin_content_' + k, '', '', '', function() {
+                initMenu();
+                show();
+            });
         }
         if (parseInt(BROWSER.ie) != 6) {
             loadingst = setTimeout(function() { showDialog('', 'info', '<img src="' + IMGDIR + '/loading.gif"> 請稍候...') }, 500);
@@ -2036,7 +2040,8 @@ function mobileplayer() {
 
 var BROWSER = {};
 var USERAGENT = navigator.userAgent.toLowerCase();
-browserVersion({ 'ie': 'msie', 'firefox': '', 'chrome': '', 'opera': '', 'safari': '', 'mozilla': '', 'webkit': '', 'maxthon': '', 'qq': 'qqbrowser', 'rv': 'rv' });
+
+browserVersion({ 'ie': 'msie', 'firefox': '', 'chrome': '', 'opera': '', 'safari': '', 'mozilla': '', 'webkit': '', 'maxthon': '', 'qq': 'qqbrowser', 'rv': 'rv', 'edge': '' });
 if (BROWSER.safari || BROWSER.rv) {
     BROWSER.firefox = true;
 }
@@ -2046,7 +2051,11 @@ HTMLNODE = document.getElementsByTagName('head')[0].parentNode;
 if (BROWSER.ie) {
     BROWSER.iemode = parseInt(typeof document.documentMode != 'undefined' ? document.documentMode : BROWSER.ie);
     HTMLNODE.className = 'ie_all ie' + BROWSER.iemode;
+} else if (BROWSER.edge) {
+    HTMLNODE.className = 'ie_all edge';
 }
+
+
 
 var CSSLOADED = [];
 var JSLOADED = [];

@@ -366,6 +366,10 @@ body {
     color: #999 !important;
 }
 
+.ie_all #scbar_txt {
+    color: #999 !important;
+}
+
 .scbar_type_td {
     width: 70px;
     background: url("{STYLEIMGDIR}/type.png") no-repeat;
@@ -764,6 +768,10 @@ body {
     font-weight: normal;
     color: #ccc;
     background: #434343;
+}
+
+.ie_all .pg label {
+    display: none;
 }
 
 .pgb a {
@@ -2903,8 +2911,13 @@ textarea {
     overflow: hidden;
 }
 
-.pg_forumdisplay .bm.bmw .bm_c.cl .cl .slideouter {
-    height: 119px !important;
+.pg_forumdisplay .boardnav #ct .bm.bmw .bm_c.cl .cl .slideouter {
+    height: 140px !important;
+    border: none !important;
+}
+
+.pg_forumdisplay .boardnav .bm.bmw .bm_c.cl .cl {
+    height: 140px;
 }
 
 .pg_forumdisplay .bm.bmw .bm_c.cl .cl table {
