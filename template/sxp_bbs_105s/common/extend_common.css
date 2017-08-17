@@ -1595,6 +1595,10 @@ li {
     background: url(http://fanswoo-xxxx.com/hd.club.tw/template/sxp_bbs_105s/image/subs2.gif) no-repeat scroll left center;
 }
 
+.pg_forumdisplay .xl.xl2.cl li {
+    width: 90%;
+}
+
 .pg_forumdisplay .bm_h {
     padding-left: 0px;
     padding-right: 0px;
@@ -1774,7 +1778,6 @@ li {
 }
 
 .pg_index .sxpmain5 #tebie7 ul li {
-    height: 21px;
     overflow: hidden;
     display: -webkit-box;
     text-overflow: ellipsis;
@@ -1782,6 +1785,10 @@ li {
     -moz-line-clamp: 1;
     -ms-line-clamp: 1;
     -webkit-box-orient: vertical;
+}
+
+.ie_all .pg_index .sxpmain5 #tebie7 ul li {
+    white-space: nowrap;
 }
 
 .pg_index .sxpmain5 #tebie7 ul li a:hover {
@@ -1798,6 +1805,11 @@ li {
     -moz-line-clamp: 2;
     -ms-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+
+.ie_all .pg_index .sxpmain5 #tebie6 li a {
+    width: 100%;
+    float: left;
 }
 
 .pg_index .sxpmain5 #tebie6 li {
@@ -1912,6 +1924,9 @@ li {
 
 /*footer修改:總是一直置底*/
 
+
+/*移除footer fixed*/
+
 #ct {
     min-height: 0px;
 }
@@ -1922,7 +1937,6 @@ li {
 }
 
 .sxpfttop {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -1942,6 +1956,10 @@ li {
 
 .bm_c {
     background-color: #1a1a1a;
+}
+
+.ie_all .fastpreview .bm_c {
+    background-color: #ededed;
 }
 
 #space {
