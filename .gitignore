@@ -22,3 +22,14 @@ data/cache/filecache/MjwmVY/style/default/MjwmVY_style_default.php
 data/log/201708_cplog.php
 data/cache/filecache/MjwmVY/style/default/MjwmVY_style_default.php
 data/cache/filecache/MjwmVY/setting/MjwmVY_setting.php
+data/cache/filecache/MjwmVY/addoncheck/template/MjwmVY_addoncheck_template.php
+data/cache/filecache/MjwmVY/addoncheck/template/MjwmVY_addoncheck_template.php
+data/cache/filecache/MjwmVY/adminmenu/MjwmVY_adminmenu.php
+data/cache/filecache/MjwmVY/attachtype/MjwmVY_attachtype.php
+data/cache/filecache/MjwmVY/bbcodes/display/MjwmVY_bbcodes_display.php
+data/cache/filecache/MjwmVY/bbcodes/MjwmVY_bbcodes.php
+data/cache/filecache/MjwmVY/click/MjwmVY_click.php
+data/cache/filecache/MjwmVY/creditrule/MjwmVY_creditrule.php
+data/cache/filecache/MjwmVY/cronnextrun/MjwmVY_cronnextrun.php
+data/cache/**
+data/cache/common_smilies_var.js
