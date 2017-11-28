@@ -420,6 +420,12 @@ span.y {
     width: 150px;
     float: left;
 }
+.sxpuser_l a img{
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .sxpuser_r {
     width: 400px;

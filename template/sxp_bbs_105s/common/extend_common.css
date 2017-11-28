@@ -2196,7 +2196,10 @@ textarea {
     padding-left: 0;
     padding: 10px;
 }
-
+/*內頁頭框*/
+.pg_viewthread .pls .pi .authi a,.pg_viewthread .pls em a{
+    color: black;
+}
 .pg_viewthread #moreconf .z span {
     color: #fff;
 }
@@ -2336,6 +2339,9 @@ textarea {
     display: none;
 }
 /*online*/
+#online{
+    display: none;
+}
 #online .bm_h{
     background: #434343 !important;
 }
