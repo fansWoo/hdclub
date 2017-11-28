@@ -2329,9 +2329,23 @@ textarea {
 }
 
 .pg_forumdisplay .bm_c.cl.pbn {
-    color: #ccc;
+    /* color: #ccc; */
 }
-
+/*關閉3.4 下一頁按鈕*/
+#pgbtn{
+    display: none;
+}
+/*online*/
+#online .bm_h{
+    background: #434343 !important;
+}
+#online .bm_h .xs1{
+    color: white;
+}
+#online .bm_h h3 strong{
+    color: white;
+    padding-left: 10px;
+}
 .bm_c {
     /*background-color: rgba(67, 67, 67, 0);*/
     background: #bbb;
