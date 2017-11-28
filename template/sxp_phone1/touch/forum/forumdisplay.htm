@@ -35,7 +35,22 @@
 		</span>
 	</div>
 <!-- header end -->
-
+	<!-- <div class="forumListTab cfix">
+		<ul>
+			<li>
+				<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter={if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == ''}cur{/if}">{lang forum_viewall}</a>
+			</li>
+			<li>
+				<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=lastpost&orderby=lastpost$forumdisplayadd[lastpost]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'lastpost'}cur{/if}">{lang latest}</a>
+			</li>
+			<li>
+				<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=heat&orderby=heats$forumdisplayadd[heat]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'heat'}cur{/if}">{lang order_heats}</a>
+			</li>
+			<li>
+				<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=digest&digest=1$forumdisplayadd[digest]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'digest'}cur{/if}">{lang digest_posts}</a>
+			</li>
+		</ul>
+	</div> -->
 
     <!--{if ($_G['forum']['threadtypes'] && $_G['forum']['threadtypes']['listable']) || $_G['forum']['threadsorts']}-->
 
@@ -71,22 +86,7 @@
 	
 <!--{hook/forumdisplay_top_mobile}-->
 
-	<div class="forumListTab cfix">
-	<ul>
-		<li>
-			<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter={if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == ''}cur{/if}">{lang forum_viewall}</a>
-		</li>
-		<li>
-			<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=lastpost&orderby=lastpost$forumdisplayadd[lastpost]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'lastpost'}cur{/if}">{lang latest}</a>
-		</li>
-		<li>
-			<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=heat&orderby=heats$forumdisplayadd[heat]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'heat'}cur{/if}">{lang order_heats}</a>
-		</li>
-		<li>
-			<a href="forum.php?mod=forumdisplay&fid=$_G[fid]&filter=digest&digest=1$forumdisplayadd[digest]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="{if $_GET['filter'] == 'digest'}cur{/if}">{lang digest_posts}</a>
-		</li>
-	</ul>
-</div>
+	
 <!-- main threadlist start -->
 <!--{if empty($_G['forum']['picstyle']) || $_G['cookie']['forumdefstyle']}-->
 

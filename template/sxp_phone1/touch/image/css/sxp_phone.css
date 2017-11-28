@@ -619,6 +619,7 @@ Powered by www.shangxuepai.com / www.lovediscuz.com
     border-bottom: 0 none;
     overflow: hidden;
     display: block;
+    margin-top: .95rem;
 }
 
 .sxpthread_type a {
@@ -648,7 +649,7 @@ Powered by www.shangxuepai.com / www.lovediscuz.com
 }
 
 .sxp_threadlist>ul {
-    padding-top: .9rem;
+    /* padding-top: .9rem; */
 }
 
 .cl {
@@ -659,6 +660,7 @@ Powered by www.shangxuepai.com / www.lovediscuz.com
     border-bottom: 1px solid #1a1a1a;
     padding: .35rem .4rem;
     background: #333;
+    color: white;
 }
 
 .sxp_threadlist li a {
@@ -1285,11 +1287,11 @@ Powered by www.shangxuepai.com / www.lovediscuz.com
     background: #434343;
     position: fixed;
     width: 100%;
-    margin-top: .92rem;
 }
 
 .forumListTab.cfix {
-    margin-top: 0px;
+    height: .75rem;
+    top: .92rem;
 }
 
 .forumListTab ul {
