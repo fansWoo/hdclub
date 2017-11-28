@@ -160,7 +160,7 @@ body {
 .fl_tb .xi1,
 .fl_tb .xi2,
 .fl_tb .xi2 a {
-    color: #F80 !important;
+    /*color: #F80 !important;*/
 }
 
 
@@ -297,6 +297,7 @@ body {
     height: 60px;
     background:url({STYLEIMGDIR}/sousuobg9.jpg) no-repeat scroll -500px center;
     padding: 27px 90px;
+    display: none;
 }
 
 .sxp_scbar {
@@ -509,7 +510,7 @@ body {
     width: 850px;
     overflow: hidden;
     position: absolute;
-    left: 200px;
+    right: 0px;
 }
 
 #sxp_nv3 ul li {
@@ -816,6 +817,7 @@ body {
 .bm .bm_h.cl {
     border-top: 1px solid rgba(0, 0, 0, 0);
     border-bottom: 1px solid #565656;
+    /*padding: 0 10px;*/
 }
 
 .plugin .bm_h h2 {
@@ -1576,6 +1578,12 @@ li {
 .pg_list.pg_list_1 .bm_c a {
     color: #28a0dd;
 }
+.pg_list.pg_list_1 .bm_c a:visited{
+    color:#780b92;
+}
+.pg_list.pg_list_1 .bm_c a:hover {
+    text-decoration: underline;
+}
 
 .pg_list.pg_list_1 .area {
     color: #fff
@@ -1723,11 +1731,13 @@ li {
 
 /*list_view*/
 
-.pg_view .sd.pph .bm .bm_c {
+.pg_view .sd.pph .bm .bm_c,
+.pg_list.pg_list_1 .sd.pph .bm .bm_c {
     background-color: #333;
 }
 
-.pg_view .bm_c a {
+.pg_view .bm_c a,
+.pg_list.pg_list_1 .sd.pph .bm .bm_c li a {
     color: #2d9eff;
 }
 
@@ -1735,20 +1745,23 @@ li {
 /*首頁版面*/
 
 .pg_index .module.cl.xl h2 {
-    color: #fff
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 0.5px;
 }
 
-.pg_index .sxpmain2 dt a {
-    color: #0080d3 !important;
-}
+
+/*.pg_index .sxpmain2 dt a {
+color: #0080d3 !important;
+}*/
 
 .pg_index .sxpmain2 dt a:hover {
     color: #2da4ff;
 }
 
-.module.cl.xl li a:hover {
-    color: #2da4ff;
-}
+
+/*.module.cl.xl li a:hover {
+color: #2da4ff;
+}*/
 
 .pg_index .wp.wz2 .area {
     padding-bottom: 150px;
@@ -1781,9 +1794,10 @@ li {
     background: url(http://fanswoo-xxxx.com/hd.club.tw/template/sxp_bbs_105s/image/menu_button_bk.jpg) repeat-x 100% 100%;
 }
 
-.pg_index .sxpmain5 {
-    height: 255px;
-}
+
+/*.pg_index .sxpmain5 {
+height: 255px;
+}*/
 
 .pg_index .sxpmain5 #tebie7 ul li {
     overflow: hidden;
@@ -1804,8 +1818,8 @@ li {
 }
 
 .pg_index .sxpmain5 #tebie6 li a {
-    height: 50px;
-    color: #0080d3;
+    height: 40px;
+    /*color: #0080d3;*/
     overflow: hidden;
     display: -webkit-box;
     text-overflow: ellipsis;
@@ -1813,6 +1827,7 @@ li {
     -moz-line-clamp: 2;
     -ms-line-clamp: 2;
     -webkit-box-orient: vertical;
+    line-height: 1.3;
 }
 
 .ie_all .pg_index .sxpmain5 #tebie6 li a {
@@ -1838,7 +1853,7 @@ li {
 
 .pg_index .sxpmain5 #tebie6 {
     width: 230px;
-    height: 90px;
+    height: 80px;
     padding-right: 0;
     border-bottom: none;
     display: -webkit-box;
@@ -1852,7 +1867,7 @@ li {
 .pg_index .sxpmain5 #tebie5 {
     width: 320px;
     height: 180px;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 
 .pg_index .sxpmain5 #tebie7 {
@@ -1869,7 +1884,7 @@ li {
     -ms-line-clamp: 2;
     -webkit-box-orient: vertical;
     padding-right: 6px;
-    width: 360px;
+    width: 373px;
 }
 
 .sxpmain5 {
@@ -1916,7 +1931,7 @@ li {
 }
 
 #nv_forum .bm_c p {
-    color: #b1b1b1;
+    color: #333;
 }
 
 #nv_forum .fl_by cite {
@@ -1952,7 +1967,7 @@ li {
 }
 
 .t_fsz {
-    color: #808080;
+    /*color: #808080;*/
 }
 
 
@@ -2006,7 +2021,8 @@ textarea {
 }
 
 .bm_c a {
-    color: #0080d3;
+    /*color: #0080d3;*/
+    color: #2198e5;
     text-decoration: none;
 }
 
@@ -2317,7 +2333,8 @@ textarea {
 }
 
 .bm_c {
-    background-color: rgba(67, 67, 67, 0);
+    /*background-color: rgba(67, 67, 67, 0);*/
+    background: #bbb;
 }
 
 .pg_forumdisplay .bm {
@@ -2713,33 +2730,45 @@ textarea {
 
 .pg_list.pg_list_1 .xld .atc {
     float: left;
-    width: 948px;
-    height: 506px;
+    /*width: 948px;
+    height: 506px;*/
+    width: 320px;
+    height: 180px;
     margin-left: 0px;
     overflow: hidden;
-    margin: 0 0 30px 0;
+    /*margin: 0 0 30px 0;*/
+    margin: 8px;
 }
 
 .pg_list.pg_list_1 .xld .atc img {
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
+    width: 320px;
+    height: 180px;
     max-width: none;
     max-height: none;
     padding: 0;
     border: none;
+    /*display: none;*/
 }
 
 .pg_list.pg_list_1 .bm_c.xld .bbda {
     border-bottom: 1px solid #666;
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;*/
 }
 
 .pg_list.pg_list_1 .bm_c.xld .bbda dt {
-    padding: 25px 30px 20px;
+    /*padding: 25px 30px 20px;*/
+    padding: 25px 10px 20px;
+    float: left;
+    width: 590px;
 }
 
 .pg_list.pg_list_1 .bm_c.xld .bbda dd {
-    padding: 0 30px;
+    /*padding: 0 30px;*/
+    float: left;
+    width: 590px;
+    padding: 0 10px;
 }
 
 
@@ -2750,7 +2779,7 @@ textarea {
 }
 
 #threadlisttableid .mi_postlist {
-    background: #434343;
+    /*background: #434343;*/
 }
 
 #threadlisttableid .mi_postlist:hover {
@@ -2968,3 +2997,100 @@ textarea {
 }
 
 @media screen and (max-width:450px) {}
+
+
+/*peipei*/
+
+.ph {
+    font-weight: 600;
+}
+
+.pg_list.pg_list_1 .bm_c a {
+    color: #3366ff;
+}
+
+
+/*新聞首頁字顏色*/
+
+.pg_list.pg_list_1 .bm_c.xld .bbda dd {
+    color: #000;
+}
+
+
+/*新聞日期編輯刪除*/
+
+.xg1,
+.xg1 a {
+    color: #666 !important;
+}
+
+
+/*新聞快訊右側邊欄位*/
+
+.dxb_bc .index3_bigtopic02 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pg_view .sd.pph .bm .bm_c .xl2 li,
+.sd.pph .bm .bm_c .xl2 li {
+    padding: 0px;
+}
+
+.sd.pph .bm .bm_c .xl2::after {
+    content: '';
+}
+
+.sd.pph .bm .bm_h.cl {
+    padding: 0px 10px;
+}
+
+#ct .sd .block.move-span {
+    margin-bottom: 5px;
+}
+
+
+/*論壇*/
+
+.bm_c a,
+.xi2,
+.xi2 a,
+.xi3 a,
+.fl_row .xi2 a,
+.pg_index .fl_tb p a {
+    color: #36F;
+}
+
+.xi2 a {
+    color: #2198e5;
+}
+
+#nv_forum .fl_by cite {
+    color: #333;
+}
+
+.sxp_mn .fl .bm_c tbody tr {
+    border-bottom: 1px solid #999;
+}
+
+.sxp_mn .fl .bm_c table tbody tr:last-child {
+    border-bottom: 0px;
+}
+
+
+/*a 標籤拜訪過的連結*/
+
+.mi_postlist h2 a:visited {
+    color: #9229ab;
+}
+/*首頁 a*/
+.pg_index .sxpmain5 #tebie6 li a:visited{
+    color: #9229ab;
+}
+.sxpmain2 .sxpmain2_a ul li a:visited{
+    color: #9229ab;
+}
+/*side bar 最新回復主題*/
+.pg_list.pg_list_1 .area ul li a:visited{
+    color: #9229ab;
+}

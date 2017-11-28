@@ -24,31 +24,33 @@
 
 <div class="footer sxpfooter">
 
-	<div>
+    <div>
 
-		<!--{if !$_G[uid] && !$_G['connectguest']}-->
+        <!--{if !$_G[uid] && !$_G['connectguest']}-->
 
-		<a href="forum.php">{lang mobilehome}</a> <a id="footone">|</a> <a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> <a id="footone">|</a> <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;" style="color:#fff;padding:5px 10px;border-radius:3px;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>
-		<!--{else}-->
-		<a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
+        <a href="forum.php">{lang mobilehome}</a> <a id="footone">|</a> <a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> <a id="footone">|</a> <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;"
+            style="color:#fff;padding:5px 10px;border-radius:3px;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>
+        <!--{else}-->
+        <a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
 
-		<!--{/if}-->
+        <!--{/if}-->
 
-	</div>
+    </div>
 
     <div class="footer_link">
-		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}" style="display:none;">{lang no_simplemobiletype}</a> <a id="footone">|</a>  
+        <a href="{$_G['setting']['mobile']['simpletypeurl'][0]}" style="display:none;">{lang no_simplemobiletype}</a> <a id="footone">|</a>
 
-		<a id="foottwo" href="javascript:;" style="color:#fff;padding:5px 10px;border-radius:3px;">{lang mobile2version}</a> <a id="footone">|</a> 
+        <a id="foottwo" href="javascript:;" style="color:#fff;padding:5px 10px;border-radius:3px;">{lang mobile2version}</a> <a id="footone">|</a>
 
-		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> <a id="footone">|</a> 
+        <a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> <a id="footone">|</a>
 
-		<!--{if $clienturl}--><a href="$clienturl" style="display:none;">{lang clientversion}</a><!--{/if}-->
+        <!--{if $clienturl}--><a href="$clienturl" style="display:none;">{lang clientversion}</a>
+        <!--{/if}-->
     </div>
     <div class="footer_con">
-		<p>&copy; 2015-2017<a href="http://www.discuz.net"> Comsenz Inc.</a><a href="$_G['setting']['siteurl']" target="_blank">HD.Club 精研國際傳播事業有限公司</a> Powered by©Discuz! </p>
-		<p>本網站特別聘請 中華海事法律事務所 為本站法律顧問 GMT+8, 2017-7-27 15:57 , Processed in 0.033165 second(s), 3 queries , Gzip On, Apc On.</p>
-	</div>
+        <p>&copy; 2015-2017<a href="http://www.discuz.net"> Comsenz Inc.</a><a href="$_G['setting']['siteurl']" target="_blank">HD.Club 精研國際傳播事業有限公司</a> Powered by©Discuz! X3.3 </p>
+        <p>本網站特別聘請 中華海事法律事務所 為本站法律顧問 GMT+8, 2017-7-27 15:57 , Processed in 0.033165 second(s), 3 queries , Gzip On, Apc On.</p>
+    </div>
 
 </div>
 
@@ -62,11 +64,10 @@
 
 <!--{if defined('IN_MOBILE')}-->
 
-	<!--{eval output();}-->
+<!--{eval output();}-->
 
 <!--{else}-->
 
-	<!--{eval output_preview();}-->
+<!--{eval output_preview();}-->
 
 <!--{/if}-->
-

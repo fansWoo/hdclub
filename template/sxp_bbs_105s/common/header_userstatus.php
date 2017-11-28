@@ -1,4 +1,5 @@
 <?php echo 'shangxuepai.com:http://addon.discuz.com/?@3982.developer ';exit;?>
+
 <!--{if $_G['uid']}-->
 
 

@@ -14,7 +14,7 @@
 
 <div id="scbar" class="{if $_G['setting']['srchhotkeywords'] && count($_G['setting']['srchhotkeywords']) > 5}scbar_narrow {/if}cl">
   <form id="scbar_form" method="{if $_G[fid] && !empty($searchparams[url])}get{else}post{/if}" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="{if $_G[fid] && !empty($searchparams[url])}$searchparams[url]{else}search.php?searchsubmit=yes{/if}" target="_blank">
-		<input type="hidden" name="mod" id="scbar_mod" value="search" />
+		<input type="hidden" name="mod" id="scbar_mod" value="forum" />
 		<input type="hidden" name="formhash" value="{FORMHASH}" />
 		<input type="hidden" name="srchtype" value="title" />
 		<input type="hidden" name="srhfid" value="$_G[fid]" />

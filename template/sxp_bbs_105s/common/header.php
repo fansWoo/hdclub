@@ -42,6 +42,8 @@
             return true;
         }
         window.onerror = killErrors;
+
+        
 </script>
 </head>
 <body id="nv_{$_G[basescript]}" class="pg_{CURMODULE}{if $_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)} {$cat['bodycss']}{/if}" onkeydown="if(event.keyCode==27) return false;">
