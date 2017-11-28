@@ -130,7 +130,7 @@
 							<tr>
 								<td width="15"><input type="checkbox" name="operations[]" class="pc" onclick="if(this.checked) switchitemcp('itemcp_highlight')" value="highlight" $defaultcheck[highlight] /></td>
 								<td class="hasd">
-									<!--{eval $_G['forum_colorarray'] = array(1=>'#FF3333', 2=>'#EE5023', 3=>'#996600', 4=>'#3C9D40', 5=>'#2897C5', 6=>'#2B65B7', 7=>'#9881ea', 8=>'#EC1282');}-->
+									<!--{eval $_G['forum_colorarray'] = array(1=>'#EE1B2E', 2=>'#EE5023', 3=>'#996600', 4=>'#3C9D40', 5=>'#2897C5', 6=>'#2B65B7', 7=>'#8F2A90', 8=>'#EC1282');}-->
 									<label onclick="switchitemcp('itemcp_highlight')" class="labeltxt">{lang thread_highlight}</label>
 									<div class="dopt">
 										<span class="hasd">
@@ -432,7 +432,7 @@ function showHighLightColor(hlid) {
 	var showid = hlid + '_ctrl';
 	if(!$(showid + '_menu')) {
 		var str = '';
-		var coloroptions = {'0' : '#000', '1' : '#FF3333', '2' : '#EE5023', '3' : '#996600', '4' : '#3C9D40', '5' : '#2897C5', '6' : '#2B65B7', '7' : '#9881ea', '8' : '#EC1282'};
+		var coloroptions = {'0' : '#000', '1' : '#EE1B2E', '2' : '#EE5023', '3' : '#996600', '4' : '#3C9D40', '5' : '#2897C5', '6' : '#2B65B7', '7' : '#8F2A90', '8' : '#EC1282'};
 		var menu = document.createElement('div');
 		menu.id = showid + '_menu';
 		menu.className = 'cmen';

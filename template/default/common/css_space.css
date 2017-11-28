@@ -1,7 +1,7 @@
 body { background-color: transparent; }
 	.wp { width: 970px; }
 	#hd { margin-bottom: 0; position: relative; height: 140px; }
-		#hd h2 { padding: 25px 0 0 15px; font-size: 13px; }
+		#hd h2 { padding: 25px 0 0 15px; font-size: 14px; }
 			#hd h2 strong { display: block; }
 		#nv { position: absolute; left: 10px; height: auto; bottom: 0; background: transparent none; }
 			#nv li, #home { margin-right: 1px; padding: 0 6px; border: none; height: 30px; background: rgba(255, 255, 255, 0.7); line-height: 30px; font-size: 12px; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #70FFFFFF, endColorstr = #70FFFFFF); }
