@@ -597,6 +597,9 @@ span.y {
     border: 1px solid #ECECEC;
     width: 270px;
 }
+.newad3 img{
+    height: auto !important;
+}
 
 .sxp_tiezi {
     padding: 11px;
