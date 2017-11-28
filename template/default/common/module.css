@@ -157,7 +157,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 		.el .ec .hot { float: right; margin: 10px 0 0 10px; width: 55px; height: 50px; background: url({IMGDIR}/hotspot.gif) no-repeat; }
 			.el .ec .hot a { display: block; line-height: 20px; text-align: center; color: #FFF; }
 				.el .ec .hot a:hover { text-decoration: none; }
-				.el .ec .hot em { display: block; line-height: 30px; font-size: 16px; color: {HIGHLIGHTLINK}; cursor: pointer; }
+				.el .ec .hot em { display: block; line-height: 30px; font-size: 15px; color: {HIGHLIGHTLINK}; cursor: pointer; }
 		.el a { color: {HIGHLIGHTLINK}; }
 		/* 有頭像的動態列表 */
 		.xlda .el { overflow: hidden; float: left; margin-top: -4px; width: 100%; }
@@ -169,7 +169,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 
 /** forum::viewthread,group::viewthread,home::task,misc::stat,home::space **/
 	/* 進度條 */
-		.pbg { height: 16px; background: url({IMGDIR}/pllb.png) 0 0 repeat-x; -webkit-border-radius: 0 6px 6px 0; -moz-border-radius: 0 6px 6px 0; border-radius: 0 6px 6px 0; }
+		.pbg { height: 10px; background: url({IMGDIR}/pllb.png) 0 0 repeat-x; -webkit-border-radius: 0 6px 6px 0; -moz-border-radius: 0 6px 6px 0; border-radius: 0 6px 6px 0; }
 		.pbr { height: 16px; width: 470px; background-image: url({IMGDIR}/pllb.png); background-color: #5AAF4A; background-position: 0 -16px; background-repeat: repeat-x; -webkit-border-radius: 0 6px 6px 0; -moz-border-radius: 0 6px 6px 0; border-radius: 0 6px 6px 0; }
 		.pbg2 { display: block; height: 10px; width: 130px; margin: 0 auto; background: url({IMGDIR}/ico_jdt.png) 0 -10px repeat-x; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 		.pbr2 { display: block; height: 10px; background: url({IMGDIR}/ico_jdt.png) 0 0 repeat-x; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
@@ -186,7 +186,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 #vfastpost td{height:38px;}
 	#vfastpost #vf_l{width:5px;background: url({IMGDIR}/v.png) no-repeat -30px -39px;}
 	#vfastpost #vf_m{background: url({IMGDIR}/v.png) repeat-x 0px -79px;}
-	#vfastpost #vf_m input{border:1px solid white; width: 100%; border: 1px solid white; outline: none; font-size: 14px; }
+	#vfastpost #vf_m input{border:1px solid white; width: 100%; border: 1px solid white; outline: none; font-size: 13px; }
 	#vfastpost #vf_r{width:10px;background: url({IMGDIR}/v.png) no-repeat -47px -119px;}
 	#vfastpost #vf_b{width:120px;}
 		#vfastpost #vf_b button{width:120px;display:block;height:38px;line-height:100px;overflow:hidden;background: url({IMGDIR}/v.png) no-repeat 0 0; margin: 0; padding: 0; border: none;}
@@ -460,7 +460,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 	.flt {}
 		.flt .flc { width: 294px; }
 		.gcop { margin-right: 15px; clear: left; }
-		.ghfl dt, .flt dt { font-size: 14px; font-weight: 700; }
+		.ghfl dt, .flt dt { font-size: 13px; font-weight: 700; }
 			.ghfl dt span, .flt dt span, .flt dd span { font-size: 12px; font-weight: 200; color: {LIGHTTEXT}; }
 			.ghfl dd, .flt dd { line-height: 1.8em; }
 /** end **/
@@ -492,7 +492,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 			/* 當前版塊 */
 			.bdl dd.bdl_a a { background-color: #F5F9FB; font-weight: 700; color: {HIGHLIGHTLINK}; }
 
-	.previewPost { width: 100%; font-size: 14px; }
+	.previewPost { width: 100%; font-size: 13px; }
 	/* 點擊加載下一頁按鈕樣式 */
 	#autopbn { display: block; margin-bottom: 10px; border: 1px solid rgb(194, 213, 227); border-radius: 3px; text-align: center; }
 	#autopbn:hover { background: #fff; text-decoration: none; }
@@ -564,7 +564,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 		#fh #gh { padding-top: 10px; }
 		#fh .h { margin-top: 10px; }
 			#fh .h * { float: left; }
-			#fh h1 { margin-right: 10px; font-size: 16px; }
+			#fh h1 { margin-right: 10px; font-size: 15px; }
 			#fh .h .y { float: right; }
 			#fh .o a { float: left; margin-right: 10px; }
 	#fh.m { padding-top: 0; background-color: {COMMONBG}; }
@@ -613,7 +613,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 				.tl cite, .tl .num em { display: block; }
 				.tl th em { margin-right: 4px; zoom: 1; }
 					.tl th em, .tl th em a { color: #007CD5; }
-				.tl td em { font-size: 11px; font-family: Arial, Pmingliu, sans-serif; -webkit-text-size-adjust: none; }
+				.tl td em { font-size: 11px; font-family: Arial, PMingliu, sans-serif; -webkit-text-size-adjust: none; }
 					.tl td em, .tl td em a { color: {LIGHTTEXT}; }
 			/*.tl .th th, .tl .th td { padding: 8px 0; background: {SPECIALBG}; border-top: 1px solid {SPECIALBORDER}; }*/
 			.tl .ts th, .tl .ts td { padding: 3px 0; border-bottom-color: {COMMONBORDER}; background: {COMMONBG}; }
@@ -704,7 +704,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 .ie6 .cgtl { width: auto; }
 	.cgtl { overflow: hidden; }
 	.cgtl td, .cgtl th, .cgtl caption { padding: 5px; border-bottom: 1px solid {SPECIALBORDER}; }
-	.cgtl caption { background: {SPECIALBG}; border-top: 1px solid {SPECIALBORDER}; font-size: 14px; font-weight: 700; }
+	.cgtl caption { background: {SPECIALBG}; border-top: 1px solid {SPECIALBORDER}; font-size: 13px; font-weight: 700; }
 	.cgtl th { width: 16%; }
 
 /*
@@ -838,16 +838,16 @@ a.thread_mod { background: url({IMGDIR}/bigimg.png) no-repeat 0 -38px; padding-l
 	.plm { vertical-align: bottom !important; }
 	.plc, .pls { vertical-align: top; }
 		.plc { padding: 0 20px; }
-		.pls { width: 160px; background: {SPECIALBG}; overflow: hidden; border-right: 1px solid {CONTENTSEPARATE}; }
-		.pls .avatar { margin: 10px 15px; }
+		.pls { width: 165px; background: {SPECIALBG}; overflow: hidden; border-right: 1px solid {CONTENTSEPARATE}; }
+		.pls .avatar { margin: 10px 17px; }
 			.pls .avatar img { padding: 5px 5px 8px; background: #FFF url({IMGDIR}/midavt_shadow.gif) 0 100% repeat-x; width:120px; }
 
 			.pls .favatar { background: transparent; height: auto; border-width: 0px; overflow: visible; }
 
-		.pls p, .pls .pil, .pls .o { margin: 5px 10px 5px 20px; }
+		.pls p, .pls .pil, .pls .o { margin: 5px 5px 5px 15px; }
 			.pls p em, .pls dt em { color: {NOTICETEXT}; }
 			.pls dd, .pls dt { float: left; overflow: hidden; height: 1.6em; line-height: 1.6em; }
-				.pls dt { margin-right: 3px; width: 55px; }
+				.pls dt { margin-right: 3px; width: 70px; }
 				.pls dd { width: 70px; }
 					.pls dd img { margin-top: -2px; max-width: 65px; }
 						.ie6 .pls dd img, .ie7 .pls dd img { margin-top: 2px; width: expression(this.width > 65 ? 65 : true); }
@@ -885,7 +885,7 @@ a.thread_mod { background: url({IMGDIR}/bigimg.png) no-repeat 0 -38px; padding-l
 			.pcb h1 a { font-weight: 400; }
 			.pcb h2 em { float: right; font-size: 12px; font-weight: 400; }
 			#ph { padding: 17px 0 0; }
-				#ph h1 { font-size: 20px; }
+				#ph h1 { font-size: 16px; }
 			#fj { margin-left: 5px; }
 				#fj label, #fj input { margin-right: 4px; padding: 0; height: 16px; line-height: 16px; }
 		.pcb .jammer { font-size: 10px; color: {WRAPBG}; }
@@ -964,7 +964,7 @@ a.thread_mod { background: url({IMGDIR}/bigimg.png) no-repeat 0 -38px; padding-l
 			.icon_ring:hover { background:#F26C4F; border:2px solid #FFF; }
 
 /* 回帖推薦 post sticklist by dfox */
-	.psth { margin: 2em 0 2em -20px; padding: 5px 45px 5px 20px; width: 240px; background: #FFF4DD url({IMGDIR}/arw.gif) no-repeat 100% 50%; color: {NOTICETEXT}; font-size: 14px; }
+	.psth { margin: 2em 0 2em -20px; padding: 5px 45px 5px 20px; width: 240px; background: #FFF4DD url({IMGDIR}/arw.gif) no-repeat 100% 50%; color: {NOTICETEXT}; font-size: 13px; }
 	.tpst .psth { margin-left: -15px; }
 	.pstl { clear: left; padding: 0.5em 0;}
 		.psta { float: left; width: 120px; line-height:24px; overflow:hidden; }
@@ -1114,11 +1114,11 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 		Last Modify:	Pony 11082511
 	*/
 	.act {}
-		.act .c { line-height: 28px; font-size: 14px; }
+		.act .c { line-height: 28px; font-size: 13px; }
 		.spvimg { float: left; position: relative; width: 300px; background: #FAFAFA; text-align: center; border: 1px solid {COMMONBORDER}; }
 		.spvimg em.hot { width: 120px; height: 102px; background-position: 0 -104px; }
 		.spi { margin-left: 315px;}
-			.spi dl { font-size: 14px; }
+			.spi dl { font-size: 13px; }
 				.spi dl dt { float: left; padding: 2px 0; width: 80px; height: 1em; }
 				.spi dl dd { margin-left: 90px; padding: 2px 0; min-height: 21px; height: auto !important; height: 21px; }
 				.spi dl dd em { color: #F30; }
@@ -1172,7 +1172,7 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 				.trdl .tt img { vertical-align: middle; cursor: pointer; }
 				.trdl .tt .hot { width: 43px; height: 37px; }
 			.ta { margin-left: 100px; overflow: hidden; }
-				.ta h4 { padding: 2px; font-size: 14px; font-weight: 700; }
+				.ta h4 { padding: 2px; font-size: 13px; font-weight: 700; }
 				.ta dl { margin: 0; width: 200px; }
 				.ta strong { font-size:16px; color: #F30; }
 
@@ -1247,7 +1247,7 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 		.tradl .tn em.hot { width: 53px; height: 46px; background-position: 0 -48px; }
 		.tradl img { max-width: 130px; max-height: 130px; }
 			* html .tradl img { width: expression(this.width > 130 && this.width>=this.height ? 130 : true); height: expression(this.height > 130 && this.width<=this.height ? 130 : true); }
-	.tradl .p { font-family: Arial, sans-serif; font-size: 16px; color: {LIGHTTEXT}; }
+	.tradl .p { font-family: Arial, sans-serif; font-size: 15px; color: {LIGHTTEXT}; }
 	.tradl .stat { background: url({IMGDIR}/closed.png); color: {LIGHTLINK}; }
 /** end **/
 
@@ -1259,11 +1259,11 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 		.ds th { width: 60px; vertical-align: bottom; }
 		.ds th div { background: url({IMGDIR}/debate_vs.gif) no-repeat 50% 50%; height: 150px; }
 		.ds td { vertical-align: bottom; }
-			.ds td p{ font-size: 14px; padding: 5px 0 15px; line-height: 20px; text-align: left; }
+			.ds td p{ font-size: 13px; padding: 5px 0 15px; line-height: 20px; text-align: left; }
 		.ds .si_1, .ds .si_2 { text-align: center; vertical-align: middle; }
 		.ds .sc_1, .ds .sc_2 { width: 62px; }
 			.ds .point_chart{ position: relative; width: 62px; height: 150px; background: url({IMGDIR}/debate_chart.gif) no-repeat 0 0; }
-			.ds .point { margin: 0 auto; padding: 0 20px 0 10px; text-align: center; font-size: 14px; }
+			.ds .point { margin: 0 auto; padding: 0 20px 0 10px; text-align: center; font-size: 13px; }
 				.ds .si_2 .point { padding: 0 20px; }
 					.ds .si_1 .point strong{ color: #F04700; }
 					.ds .si_2 .point strong{ color: #0092C5; }
@@ -1273,11 +1273,11 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 		/* 空間中的辯論列表 by Pony */
 		#nv_home .ds table { table-layout: fixed; width: 100%; }
 		#nv_home .ds th div, #nv_home .ds .point_chart { height: 120px; }
-		#nv_home .ds .ph { font-size: 16px; text-align: center; }
+		#nv_home .ds .ph { font-size: 15px; text-align: center; }
 	.dr { margin: 2px 0; padding-top: 6px; min-height: 80px; height: auto !important; height: 80px; background: url({IMGDIR}/debate_dr.jpg) no-repeat 50% 0; }
 		.dr th { width:50px; }
 		.dr td { vertical-align: top; }
-		.dr h5 { padding-left:10px; width: 193px; text-align: center; font-size: 14px; font-weight: 400; }
+		.dr h5 { padding-left:10px; width: 193px; text-align: center; font-size: 13px; font-weight: 400; }
 			.dr h5 a { color: #F04700; font-weight: 700; }
 			.dr .sr_1 .pn { float: right; margin-right: 5px; }
 			.dr .sr_2 .pn { margin-left: 5px; }
@@ -1434,7 +1434,7 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 		.vw .hot { margin-right: 5px; color: {NOTICETEXT}; }
 		.vw .s { margin-top: 10px; padding-bottom: 10px; border-bottom: 1px solid {COMMONBORDER}; line-height: 2; color: {HIGHLIGHTLINK}; }
 			.vw .s strong { font-weight: 400; color: red; }
-		.vw .d { margin: 15px 0; min-height: 100px; font-size: 14px; line-height: 1.8; color: #000; }
+		.vw .d { margin: 15px 0; min-height: 100px; font-size: 13px; line-height: 1.8; color: #000; }
 			.vw .d i { font-style: italic; }
 			.vw .d img { max-width: 620px; }
 			.ie6 .vw .d img { width: expression(this.width > 620 ? 620:true); }
@@ -1590,7 +1590,7 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 /* .pll -> poll_list 投票列表 */
 	.pll {}
 		.pll li { padding: 10px 0; min-height: auto; }
-		.pll .h { font-size: 14px; }
+		.pll .h { font-size: 13px; }
 			.pll .h span { font-weight: 400; }
 		.pll .c { margin: 0 84px 0 74px; }
 		.pll ol { margin: 5px 0 0 20px; }
@@ -1601,15 +1601,15 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 			.pll .u p { white-space: nowrap; }
 		.pll .s { display: inline; margin: 5px 10px 0 0; width: 60px; background:url({IMGDIR}/polljoins.gif) no-repeat 0 0; }
 			.pll .s a.joins { margin: 0 0 5px; padding: 12px 0; width: 60px; height: 36px; display: block; overflow: hidden; text-align: center; text-decoration: none; }
-				.pll .s a.joins span { display: block; font-size: 16px; font-weight: 700; }
+				.pll .s a.joins span { display: block; font-size: 15px; font-weight: 700; }
 			.pll .s a.go { padding: 0 0 0 17px; width: 43px; height: 24px; line-height: 24px; display:block; }
 
 /* .acl -> activity_list 活動列表 by Pony */
 	.acl { width: 100%; table-layout: fixed; }
-		.acl h3 { padding: 10px 0; font-size: 14px; }
+		.acl h3 { padding: 10px 0; font-size: 13px; }
 			.acl h3 span { float: left; margin: 1px 10px 0 0; width: 34px; text-align: center; }
 			.acl h3 strong { display: block; background-color: #C00; color: {LIGHTLINK}; font-size: 12px; }
-			.acl h3 em { display: block; line-height: 22px; border: solid {COMMONBORDER}; border-width: 0 1px 1px; font-size: 16px; font-weight: 400; }
+			.acl h3 em { display: block; line-height: 22px; border: solid {COMMONBORDER}; border-width: 0 1px 1px; font-size: 15px; font-weight: 400; }
 		.acl td { padding: 10px 3px; border-top: 1px dashed {COMMONBORDER}; vertical-align: top; }
 		.acl .type { padding: 10px 3px 10px 0; width: 80px; }
 		.acl .addr { padding-left: 20px; width: 130px; }
@@ -1766,7 +1766,7 @@ i.pstatus { display: block; margin-bottom: -30px; font-size: 12px; text-align: c
 
 /** home::spacecp,home::magic **/
 /* 查找好友 .scf --> Search friend */
-	.scf h2 { padding-left: 20px; line-height: 2.2; background: url({IMGDIR}/scf.gif) no-repeat 0 50%; font-weight: 700; font-size: 14px; }
+	.scf h2 { padding-left: 20px; line-height: 2.2; background: url({IMGDIR}/scf.gif) no-repeat 0 50%; font-weight: 700; font-size: 13px; }
 /* 用來展示複雜統計數據的表格，目前僅用戶組頁面用到 */
 	.tdats { overflow: hidden; zoom: 1; margin: 10px 0; *padding-bottom: 10px; }
 		.tdats th, .tdats td { overflow: hidden; padding: 0 5px; height: 26px; border-width: 0 1px 0 0; border-color: {WRAPBG}; white-space: nowrap; }
@@ -2068,11 +2068,11 @@ body { background: #FFF none !important; }
 /* 廣播區域樣式 */
 .flw_article { margin: 0 0 10px 70px; padding: 5px 10px 15px; border-bottom: 1px solid #DBDBDB; }
 	.flw_thread .flw_article { margin-left: 0; }
-	.flw_article h2 { font-size: 16px; }
+	.flw_article h2 { font-size: 15px; }
 		.flw_article h2 img { vertical-align: middle; }
 	.flw_reply { margin-left: 20px; }
 .flw_author, .flw_author a { color: #79869E; }
-.flw_article .c { font-size: 14px; line-height: 1.8; }
+.flw_article .c { font-size: 13px; line-height: 1.8; }
 	.flw_article .c img { display: block; margin: 10px 0; max-width: 600px; }
 		.ie6 .flw_article .c img { width: expression(this.width > 600 ? 600 : true); }
 	.flw_article .c .s { display: inline; margin: 0; }
@@ -2148,7 +2148,7 @@ body { background: #FFF none !important; }
 /* 用戶單頁頂部 */
 #flw_header.flw_uheader { padding-top: 20px; border-bottom: 1px solid rgba(0,0,0,0.15); background: #F4F7F9 none !important; }
 	.flw_uheader .tb { margin-bottom: -1px; }
-	.flw_uheader h1 { font-size: 16px; }
+	.flw_uheader h1 { font-size: 15px; }
 	.flw_uheader .tns { margin-left: -10px; padding: 0; width: 240px; }
 		.flw_uheader .tns th, .flw_uheader .tns td { padding-left: 10px; text-align: left; }
 	.flw_uheader .o { line-height: 21px; }
@@ -2237,7 +2237,7 @@ body { background: #FFF none !important; }
 	.ie6 #livereplycontent dl, .ie7 #livereplycontent dl { width: 97%; }
 	#livethread { background: #F5F9FB; border-top:2px solid #BDD7E3; }
 .livethreadtitle { margin-bottom:5px; }
-	.livethreadtitle a { color:{HIGHLIGHTLINK}; font-size: 14px; }
+	.livethreadtitle a { color:{HIGHLIGHTLINK}; font-size: 13px; }
 	.livethreadtitle img { vertical-align: middle; }
 	.livethreadtitle .replynumber { float: right; line-height: 25px; }
 		.livethreadtitle .replynumber .xi1 { background:{NOTICETEXT}; padding:0 5px; border-radius: 5px; color: #FFF; font-weight: 700; }

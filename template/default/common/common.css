@@ -170,7 +170,7 @@ CSS 寫作注意事項：
 	/* .wx --> weight text 粗體字，通常用於大標題 */
 	.wx, .ph { font-family: 'Microsoft YaHei', 'Hiragino Sans GB', 'STHeiti', Tahoma, 'SimHei', sans-serif; font-weight: 100; }
 	/* Page header */ .ph { font-size: 20px; }
-	/* Main title */ .mt { padding: 10px 0; font-size: 16px; }
+	/* Main title */ .mt { padding: 10px 0; font-size: 15px; }
 
 /* 行內分割豎線 */ .pipe { margin: 0 5px; color: #CCC; }
 
@@ -184,8 +184,8 @@ CSS 寫作注意事項：
 */
 	.xs0 { font-family: {SMFONT}; font-size: {SMFONTSIZE}; -webkit-text-size-adjust: none; }
 	.xs1 { font-size: 12px !important; }
-	.xs2 { font-size: 14px !important; }
-	.xs3 { font-size: 16px !important; }
+	.xs2 { font-size: 13px !important; }
+	.xs3 { font-size: 15px !important; }
 /*
 	Name:			mod_text_gray_level
 	Level:			Global
@@ -506,10 +506,10 @@ CSS 寫作注意事項：
 */
 	.tfm { width: 100%; }
 		.tfm caption, .tfm th, .tfm td { vertical-align: top; padding: 7px 0; }
-			.tfm caption h2 { font-size: 16px; }
+			.tfm caption h2 { font-size: 15px; }
 			.vt th, .vt td { vertical-align: top; }
 		.tfm th { padding-top: 9px; padding-right: 5px; width: 130px; }
-			.tfm th .rq { float: right; font-size: 14px; }
+			.tfm th .rq { float: right; font-size: 13px; }
 			.tfm .pt, .tfm .px { margin-right: 3px; width: 330px; }
 		.tfm .c, .tfm .tedt, .m_c .tfm .tedt { width: 338px; }
 		.tfm .d { clear: both; margin: 5px 0; color: {LIGHTTEXT}; }
@@ -535,7 +535,7 @@ CSS 寫作注意事項：
 /* 提示信息 alert_win － altw*/
 .altw { width: 350px; }
 	.altw .fltc { margin-bottom: 0; padding: 8px; }
-		.alert_right, .alert_error, .alert_info { padding: 6px 0 6px 58px; min-height: 40px; height: auto !important; height: 40px; line-height: 160%; background:url({IMGDIR}/right.gif) no-repeat 8px 8px; font-size: 14px; }
+		.alert_right, .alert_error, .alert_info { padding: 6px 0 6px 58px; min-height: 40px; height: auto !important; height: 40px; line-height: 160%; background:url({IMGDIR}/right.gif) no-repeat 8px 8px; font-size: 13px; }
 		.alert_error { background-image: url({IMGDIR}/error.gif); }
 			.alert_error a { font-weight: 700; color: {HIGHLIGHTLINK}; }
 		.alert_info { background-image: url({IMGDIR}/info.gif); }
@@ -607,7 +607,7 @@ CSS 寫作注意事項：
 					#scbar_hot strong, #scbar_hot a { float: left; margin-right: 8px; white-space: nowrap; }
 
 			#nv { overflow: hidden; height: 33px; {MENUBGCODE}; }
-				#nv li { float: left; padding-right: 1px; height: 33px; line-height: 33px; background: url({IMGDIR}/nv_a.png) no-repeat 100% 0; font-weight: 700; font-size: 14px; }
+				#nv li { float: left; padding-right: 1px; height: 33px; line-height: 33px; background: url({IMGDIR}/nv_a.png) no-repeat 100% 0; font-weight: 700; font-size: 13px; }
 					.ie_all #nv li { line-height: 36px; }
 					.ie6 #nv li { line-height: 33px; }
 					#nv li a { float: left; padding: 0 15px; height: 33px; }
@@ -813,14 +813,14 @@ CSS 寫作注意事項：
 		.tns th, .tns td { text-align: center; font-size: 12px; }
 		.sd .tns th, .sd .tns td { width: 110px !important; }
 		.tns th { border-right: 1px solid #CCC; }
-		.tns th p, .tns td p { font-size: 14px; margin: 0; }
+		.tns th p, .tns td p { font-size: 13px; margin: 0; }
 	.pls .tns { padding: 0 10px 10px; }
 		.pls .tns th p, .pls .tns td p { font-size: 12px; margin: 0; }
 
 /* 帶圖標頁面頭部 ih. --> icon header */
 	.ih .icn { float: left; width: 60px; }
 	.ih dl { margin-left: 60px; }
-		.ih dt { font-size: 14px; font-weight: 700; }
+		.ih dt { font-size: 13px; font-weight: 700; }
 		.ih dd { padding-bottom: 1em; }
 			.ih dd strong { margin: 0 2em 0 4px; color: #C00; }
 
@@ -968,7 +968,7 @@ CSS 寫作注意事項：
 
 /* 應用列表*/
 	.appl ul { margin: 3px 0; }
-	.appl li { display: block; height: 28px; line-height: 28px; white-space: nowrap; word-wrap: normal; font-size: 14px; text-overflow: ellipsis; overflow: hidden; }
+	.appl li { display: block; height: 28px; line-height: 28px; white-space: nowrap; word-wrap: normal; font-size: 13px; text-overflow: ellipsis; overflow: hidden; }
 	.appl li a { text-decoration: none !important; }
 	.appl img { margin: 5px 5px -3px 0; }
 	.appl span { float: right; font-size: 12px; }
@@ -1124,7 +1124,7 @@ CSS 寫作注意事項：
 
 /* .flb 彈出層header */
 	.flb { padding: 10px 10px 8px; height: 20px; line-height: 20px; }
-		.flb em { float: left; font-size: 14px; font-weight: 700; color: {HIGHLIGHTLINK}; }
+		.flb em { float: left; font-size: 13px; font-weight: 700; color: {HIGHLIGHTLINK}; }
 			.flb em a { text-decoration: none; }
 		.flb .needverify { float: left; margin-left: 8px; padding-left: 13px; width: 45px; height: 21px; line-height: 21px; background: url({IMGDIR}/re_unsolved.gif) no-repeat 0 0; font-size: 12px; color: {LIGHTTEXT}; font-weight: 400; }
 		.flb .onerror, .flb .onright { padding-left: 20px; height: auto; line-height: 140%; white-space: nowrap; font-size: 12px; font-weight: 400; }
@@ -1303,7 +1303,7 @@ CSS 寫作注意事項：
 .clck, .sipt .clck { background: {WRAPBG} url({IMGDIR}/clck.gif) no-repeat 98% 50%; }
 
 .lgf { float: left; overflow: visible; margin: 47px 25px 10px 40px; }
-	.lgf h4 { margin-bottom: 10px; font-weight: 400; font-size: 14px; }
+	.lgf h4 { margin-bottom: 10px; font-weight: 400; font-size: 13px; }
 	.lgf a { color: {HIGHLIGHTLINK}; }
 	.minf { margin-top: 23px; }
 
@@ -1353,7 +1353,7 @@ CSS 寫作注意事項：
 /* ==  um 公告 幫助 message 通用列表  lum -- um list == */
 .um { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px dashed {COMMONBORDER}; clear: left; }
 	.umh { margin-bottom: 10px; overflow: hidden; }
-		.umh h2, .umh h3 { clear: left; font-size:  14px; float: left; background: {WRAPBG} url({IMGDIR}/arrow.gif) no-repeat right 6px;  padding-right: 14px; cursor: pointer; }
+		.umh h2, .umh h3 { clear: left; font-size: 13px; float: left; background: {WRAPBG} url({IMGDIR}/arrow.gif) no-repeat right 6px;  padding-right: 14px; cursor: pointer; }
 			.schfaq h3 { background: none; cursor: default; }
 			.umh h3 a { color: {MIDTEXT}; }
 			.umh h3 span { font-size: 12px; font-weight: 400; color: {MIDTEXT}; }
@@ -1362,11 +1362,11 @@ CSS 寫作注意事項：
 			.umh .umh_cb { display: none; }
 			.umh .umh_ext { display: block; }
 	.umn { background: url({IMGDIR}/dash.gif) repeat-x 0 10px; clear: left; }
-		.umn h3 { background: {WRAPBG} url({IMGDIR}/arrow.gif) no-repeat right -35px; font-size: 14px; }
+		.umn h3 { background: {WRAPBG} url({IMGDIR}/arrow.gif) no-repeat right -35px; font-size: 13px; }
 			.umn .umh_cb { display: block; background-color: {WRAPBG}; color: {MIDTEXT}; cursor: pointer; }
 			.umn .umh_ext { display :none; }
 .lum {}
-	.lum h2 { font-size: 14px; }
+	.lum h2 { font-size: 13px; }
 	.lum ul { padding: 1em 0 1em 2em; margin-bottom: 1em; border-bottom: 1px dashed {COMMONBORDER}; }
 		.lum ul li { padding: 0.2em 0; }
 
@@ -1398,7 +1398,7 @@ CSS 寫作注意事項：
 	.pc_c { width: 200px; background-position: 0 -56px; background-repeat: repeat-x; }
 		.pc_inner { white-space: nowrap; text-align: center; width: auto; background-position: 50% -112px; }
 			.pc_inner i { margin-right: 10px; font-size: 12px; font-style: normal; color: {LIGHTLINK}; font-weight: 400; }
-			.pc_inner span { margin-right: 15px; color: #FFEA97; font-size: 14px; font-weight: 700; }
+			.pc_inner span { margin-right: 15px; color: #FFEA97; font-size: 13px; font-weight: 700; }
 			* html .pc_inner span { display: inline-block; }
 				.pc_inner span a { color: #FFEA97; text-decoration: underline; }
 				.pc_inner span em { color: {LIGHTLINK}; font-size: 18px; font-weight: 400; }
@@ -1503,7 +1503,7 @@ a.progressCancel { display: block; float: right; width: 14px; height: 14px; back
 
 /* ------------------------------------------------------------------------ 拖拽及頁面 DIY */
 .frame, .frame-tab { margin-bottom: 10px; border: 1px solid {WRAPBORDERCOLOR}; background: {WRAPBG}; }
-	.title { padding: 0 10px; height: 32px; font-size: 14px; font-weight: 700; line-height: 32px; overflow: hidden; }
+	.title { padding: 0 10px; height: 32px; font-size: 13px; font-weight: 700; line-height: 32px; overflow: hidden; }
 		.frame-title, .frametitle, .tab-title { background: {COMMONBG} url({IMGDIR}/title.png) repeat-x 0 100%; }
 
 	/* 新的框架結構 */
@@ -1565,7 +1565,7 @@ a.progressCancel { display: block; float: right; width: 14px; height: 14px; back
 		.bx .frame-2-1 { background: transparent url({IMGDIR}/vline.png) repeat-y 645px 0; }
 
 /* 拖動生成的頁面元素 by lushnis */
-.drag .block .title { margin-bottom: 0; padding-left: 0; font-size: 14px; font-weight: 700; }
+.drag .block .title { margin-bottom: 0; padding-left: 0; font-size: 13px; font-weight: 700; }
 
 /* 重定義 block */
 #ct .sd .block { margin: 0; }
@@ -1651,7 +1651,7 @@ a.progressCancel { display: block; float: right; width: 14px; height: 14px; back
 .slideblock { position: relative; }
 	.slideshow { clear: both; }
 		.slideshow li { position: relative; overflow: hidden; }
-			.slideshow span.title { position: absolute; bottom: 0; left: 0; margin-bottom: 0; width: 100%; height: 32px; line-height: 32px; font-size: 14px; text-indent: 10px; }
+			.slideshow span.title { position: absolute; bottom: 0; left: 0; margin-bottom: 0; width: 100%; height: 32px; line-height: 32px; font-size: 13px; text-indent: 10px; }
 			.slideshow span.title, .slidebar li { background: rgba(0, 0, 0, 0.3); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #30000000, endColorstr = #30000000); color: {LIGHTLINK}; overflow: hidden; }
 			.slidebar li { float: left; margin-right: 1px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 10px; cursor: pointer; }
 				.slidebar li.on { background: rgba(255, 255, 255, 0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #50FFFFFF, endColorstr = #50FFFFFF); color: #000; font-weight: 700; }
@@ -1669,7 +1669,7 @@ a.progressCancel { display: block; float: right; width: 14px; height: 14px; back
 	.b_debate {}
 		.b_debate dt { padding-left: 20px; background: url({IMGDIR}/debatesmall.gif) no-repeat 0 10px; }
 		.b_debate .chart { position: relative; margin: 8px auto; padding: 0; width: 279px; height: 78px; background: url({IMGDIR}/p_debate_chart.png) no-repeat 0 0; }
-		.b_debate .chart strong { position: absolute; top: 25px; width: 80px; font-size: 14px; text-align: center; }
+		.b_debate .chart strong { position: absolute; top: 25px; width: 80px; font-size: 13px; text-align: center; }
 			.b_debate .chart .debater2 { right: 0; }
 		.b_debate .chart1, .b_debate .chart2 { position: absolute; left: 80px; bottom: 0; width: 40px; background: url({IMGDIR}/p_debate_chart.png) no-repeat 0 -78px; }
 			.b_debate .chart2 { left: 159px; background-position: 100% -78px; }
@@ -1699,7 +1699,7 @@ em.hot { position: absolute; left: -2px; top: -2px; text-indent: -9999px; overfl
 
 /* 板塊、群組、空間主區域/側邊搜索 by dfox */
 .gsh { text-align: center; }
-	.gsh h1 { margin: 1em 0 0.5em -60px; font-size: 16px; font-weight: 100; }
+	.gsh h1 { margin: 1em 0 0.5em -60px; font-size: 15px; font-weight: 100; }
 	.gsh .px { width: 272px; }
 	.gsh .pns .px { margin-right: 3px; width: 190px; }
 
@@ -1776,6 +1776,6 @@ DIY圖片幻燈片未加載時隱藏,模塊標識隱藏
 		
 /* 大分頁按鈕 by theo */
 .pgbtn { margin: 5px 0 10px; }
-	.pgbtn a { display: block; height: 40px; line-height: 40px; letter-spacing: 5px; text-align: center; border: 1px solid #DCDCDC; font-size: 14px; outline: none; border-radius: 5px; box-shadow: 0 1px 0 #F5F5F5; }
+	.pgbtn a { display: block; height: 40px; line-height: 40px; letter-spacing: 5px; text-align: center; border: 1px solid #DCDCDC; font-size: 13px; outline: none; border-radius: 5px; box-shadow: 0 1px 0 #F5F5F5; }
 		.pgbtn a:hover { border-color: #BABABA; text-decoration: none; }
 		.pgbtn a:active { background: #EEE; border-color: #D0D0D0; box-shadow: none; }

@@ -19,7 +19,7 @@ body { padding-top: 170px; }
 					#savecache.unusable a { background-position: 0 0; }
 				#savecachemsg { float: right; padding-right: 5px; text-align: right; }
 		#controlnav { padding-left: 50px; height: 46px; background: transparent url({STATICURL}image/diy/t-diy.png) no-repeat 0 100%; line-height: 35px; }
-			#controlnav li { float: left; margin-top: 7px; margin-right: 5px; font-size: 14px; font-weight: 700; }
+			#controlnav li { float: left; margin-top: 7px; margin-right: 5px; font-size: 13px; font-weight: 700; }
 				#controlnav li a { float: left; padding: 0 15px; color: #333 !important; }
 			#controlnav li.current { background: url({STATICURL}image/diy/cp-nav-active.png) no-repeat 0 0; }
 				#controlnav li.current a { background: url({STATICURL}image/diy/cp-nav-active.png) no-repeat 100% -50px; }
