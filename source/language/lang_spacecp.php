@@ -301,10 +301,10 @@ $lang = array(
 	'profile_verify_modify_error' => '{verify}已經認證通過不允許修改',
 	'profile_verify_verifying' => '您的{verify}信息已提交，請耐心等待核查。',
 
-	'district_level_1' => '-省份-',
-	'district_level_2' => '-城市-',
-	'district_level_3' => '-州縣-',
-	'district_level_4' => '-鄉鎮-',
+	'district_level_1' => '-地區-',
+	'district_level_2' => '-縣市-',
+	'district_level_3' => '-鄉鎮-',
+	'district_level_4' => '-村落-',
 	'invite_you_to_visit' => '{user}邀請您訪問{bbname}',
 
 	'portal' => '門戶',

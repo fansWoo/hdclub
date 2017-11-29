@@ -1425,7 +1425,7 @@ span.y {
     border: 1px solid #e5e5e5;
     margin-bottom: 10px;
     padding: 0;
-    background: #dadada;
+    background: {WRAPBG};
 }
 
 .pi {
