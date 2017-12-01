@@ -205,7 +205,7 @@
 				<item id="cachetimerange"><![CDATA[]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1512092820]]></item>
+				<item id="dateline"><![CDATA[1512097742]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
@@ -287,7 +287,7 @@
 				<item id="cachetimerange"><![CDATA[]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1512092867]]></item>
+				<item id="dateline"><![CDATA[1512097980]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
@@ -298,7 +298,7 @@
 				<item id="name"><![CDATA[ad]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[]]></item>
-				<item id="summary"><![CDATA[<img src="AD/banner270xfree.jpg" width="100%" />]]></item>
+				<item id="summary"><![CDATA[<img src="AD/banner270xfree.jpg" width="auto" />]]></item>
 				<item id="uid"><![CDATA[1]]></item>
 				<item id="username"><![CDATA[admin]]></item>
 				<item id="styleid"><![CDATA[0]]></item>
@@ -313,7 +313,7 @@
 					<item id="pic"><![CDATA[AD/banner270xfree.jpg]]></item>
 					<item id="url"><![CDATA[]]></item>
 					<item id="atarget"><![CDATA[_blank]]></item>
-					<item id="width"><![CDATA[100%]]></item>
+					<item id="width"><![CDATA[auto]]></item>
 					<item id="height"><![CDATA[]]></item>
 					<item id="text"><![CDATA[]]></item>
 					<item id="items"><![CDATA[10]]></item>
@@ -326,7 +326,7 @@
 				<item id="cachetimerange"><![CDATA[0,0]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1511840716]]></item>
+				<item id="dateline"><![CDATA[1512098165]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
@@ -416,7 +416,7 @@
 				<item id="cachetimerange"><![CDATA[]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1512093033]]></item>
+				<item id="dateline"><![CDATA[1512097996]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
