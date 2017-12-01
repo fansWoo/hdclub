@@ -43,13 +43,8 @@
 		<!--{/if}-->
 		<table cellspacing="0" cellpadding="0">
 			<tr>
-
 				<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="{lang enter_content}" autocomplete="off" x-webkit-speech speech /></td>
-
-
 				<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"></button></td>
-				
-
 			</tr>
 			<tr>
 			  <td colspan="4" >

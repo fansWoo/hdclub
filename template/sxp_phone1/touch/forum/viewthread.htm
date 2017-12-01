@@ -6,10 +6,11 @@
 
 <script type="text/javascript">
     $.ajax({
-            url: 'http://fanswoo-xxxx.com/hd.club.tw/home.php?mod=spacecp&ac=favorite&type=thread&id=$_G[tid]',
+            url: 'home.php?mod=spacecp&ac=favorite&type=thread&id=$_G[tid]',
             type: 'get',
         })
         .done(function(response) {
+            console.log(response);
             if (response.indexOf("已收藏") != -1) {
                 $('.favbtn>img').attr('src', "$_G['style'][styleimgdir]/icon_fav_full.png");
             };

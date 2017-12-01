@@ -33,9 +33,9 @@ $lang = array
 
 	'feed_thread_recommend_title' =>	'{actor} 發表的主題 {subject} 被版主推薦',
 
-	'feed_post_rate_title' =>		'{actor} 在 {thread} 的回復評分超過了{count}',
+	'feed_post_rate_title' =>		'{actor} 在 {thread} 的回覆評分超過了{count}',
 
-	'feed_post_magic_title' =>		'{actor} 在 {thread} 的回復被 {operater} 使用了 {magiccard}',
+	'feed_post_magic_title' =>		'{actor} 在 {thread} 的回覆被 {operater} 使用了 {magiccard}',
 
 	'feed_user_profile_title' =>		'{actor} 更新了自己的個人資料',
 

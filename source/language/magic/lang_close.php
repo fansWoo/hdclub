@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'close_name' => '沉默卡',
-	'close_desc' => '可以將主題關閉，禁止回復',
+	'close_desc' => '可以將主題關閉，禁止回覆',
 	'close_expiration' => '關閉有效期',
 	'close_expiration_comment' => '設置主題可以被關閉多長時間，默認 24 小時',
 	'close_forum' => '允許使用本道具的版塊',

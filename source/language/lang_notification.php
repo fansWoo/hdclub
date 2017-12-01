@@ -41,11 +41,11 @@ $lang = array
 	'magic_present_note' => '送給您一個道具 <a href="{url}" target="_blank">{name}</a>',
 	'friend_add' => '{actor} 和您成為了好友',
 	'friend_request' => '{actor} 請求加您為好友{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">批准申請</a>',
-	'doing_reply' => '{actor} 回復了您的 <a href="{url}" target="_blank">記錄</a>',
-	'wall_reply' => '{actor} 回復了您的 <a href="{url}" target="_blank">留言</a>',
-	'pic_comment_reply' => '{actor} 回復了您的 <a href="{url}" target="_blank">圖片評論</a>',
-	'blog_comment_reply' => '{actor} 回復了您的 <a href="{url}" target="_blank">日誌評論</a>',
-	'share_comment_reply' => '{actor} 回復了您的 <a href="{url}" target="_blank">分享評論</a>',
+	'doing_reply' => '{actor} 回覆了您的 <a href="{url}" target="_blank">記錄</a>',
+	'wall_reply' => '{actor} 回覆了您的 <a href="{url}" target="_blank">留言</a>',
+	'pic_comment_reply' => '{actor} 回覆了您的 <a href="{url}" target="_blank">圖片評論</a>',
+	'blog_comment_reply' => '{actor} 回覆了您的 <a href="{url}" target="_blank">日誌評論</a>',
+	'share_comment_reply' => '{actor} 回覆了您的 <a href="{url}" target="_blank">分享評論</a>',
 	'wall' => '{actor} 在留言板上給您 <a href="{url}" target="_blank">留言</a>',
 	'pic_comment' => '{actor} 評論了您的 <a href="{url}" target="_blank">圖片</a>',
 	'blog_comment' => '{actor} 評論了您的日誌 <a href="{url}" target="_blank">{subject}</a>',
@@ -107,9 +107,9 @@ $lang = array
 	'modthreads_delete_reason' => '您發表的主題 {threadsubject} 未通過審核，現已被刪除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 	'modthreads_validate' => '您發表的主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已審核通過！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
-	'modreplies_delete' => '您發表回復未通過審核，現已被刪除！ <p class="summary">回復內容：<span>{post}</span></p>',
+	'modreplies_delete' => '您發表回覆未通過審核，現已被刪除！ <p class="summary">回覆內容：<span>{post}</span></p>',
 
-	'modreplies_validate' => '您發表的回復已審核通過！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回復內容：<span>{post}</span></p>',
+	'modreplies_validate' => '您發表的回覆已審核通過！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回覆內容：<span>{post}</span></p>',
 
 	'transfer' => '您收到一筆來自 {actor} 的積分轉賬 {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">查看 &rsaquo;</a>
 <p class="summary">{actor} 說：<span>{transfermessage}</span></p>',
@@ -151,13 +151,13 @@ $lang = array
 
 	'reward_question' => '您的懸賞主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 設置了最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
-	'reward_bestanswer' => '您的回復被懸賞主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的作者 {actor} 選為最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'reward_bestanswer' => '您的回覆被懸賞主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的作者 {actor} 選為最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
-	'reward_bestanswer_moderator' => '您在懸賞主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回復被選為最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+	'reward_bestanswer_moderator' => '您在懸賞主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 的回覆被選為最佳答案 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
 	'comment_add' => '{actor} 點評了您曾經在主題 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 發表的帖子 &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
 
-	'reppost_noticeauthor' => '{actor} 回復了您的帖子 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看</a>',
+	'reppost_noticeauthor' => '{actor} 回覆了您的帖子 <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看</a>',
 
 	'task_reward_credit' => '恭喜您完成任務：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，獲得積分 {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看我的積分 &rsaquo;</a></p>',
 

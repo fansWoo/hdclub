@@ -1,6 +1,17 @@
 <!--{template common/header}-->
 <!-- header start -->
-
+<script type="text/javascript">
+    $.ajax({
+            url: 'home.php?mod=spacecp&ac=favorite&type=forum&id=$_G[fid]&handlekey=favoriteforum&formhash={FORMHASH}',
+            type: 'get',
+        })
+        .done(function(response) {
+            
+            if (response.indexOf("已收藏") != -1) {
+                $('.favbtn>img').attr('src', "$_G['style'][styleimgdir]/icon_fav_full.png");
+            };
+		});
+</script>
 
 	<div class="sxpnav">
 	
@@ -52,10 +63,10 @@
 		</ul>
 	</div> -->
 
-    <!--{if ($_G['forum']['threadtypes'] && $_G['forum']['threadtypes']['listable']) || $_G['forum']['threadsorts']}-->
+    
 
     <div id="sxpthread_type" class="sxpthread_type" style="display:block">
-
+	<!--{if ($_G['forum']['threadtypes'] && $_G['forum']['threadtypes']['listable']) || $_G['forum']['threadsorts']}-->
         <!--{if $_G['forum']['threadtypes']}-->                        
 
             <a href="forum.php?mod=forumdisplay&fid=$_G[fid]{if $_GET['archiveid']}&archiveid={$_GET['archiveid']}{/if}" class="<!--{if $_GET['filter'] != 'typeid'}-->a<!--{/if}-->">{lang forum_viewall}</a>
@@ -79,10 +90,10 @@
             <!--{/loop}-->            
 
         <!--{/if}-->
-
+	<!--{/if}-->
     </div>
 
-    <!--{/if}-->
+    
 	
 <!--{hook/forumdisplay_top_mobile}-->
 

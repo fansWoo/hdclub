@@ -68,8 +68,8 @@ $lang = array
 	'feed_thread_title' =>			'{actor} 發表了新話題',
 	'feed_thread_message' =>		'<b>{subject}</b><br />{message}',
 
-	'feed_reply_title' =>			'{actor} 回復了 {author} 的話題 {subject}',
-	'feed_reply_title_anonymous' =>		'{actor} 回復了話題 {subject}',
+	'feed_reply_title' =>			'{actor} 回覆了 {author} 的話題 {subject}',
+	'feed_reply_title_anonymous' =>		'{actor} 回覆了話題 {subject}',
 	'feed_reply_message' =>			'',
 
 	'feed_thread_poll_title' =>		'{actor} 發起了新投票',
@@ -86,7 +86,7 @@ $lang = array
 	'feed_thread_reward_title' =>		'{actor} 發起了新懸賞',
 	'feed_thread_reward_message' =>		'<b>{subject}</b><br />懸賞 {rewardprice}{extcredits}',
 
-	'feed_reply_reward_title' =>		'{actor} 回復了關於 {subject} 的懸賞',
+	'feed_reply_reward_title' =>		'{actor} 回覆了關於 {subject} 的懸賞',
 	'feed_reply_reward_message' =>		'',
 
 	'feed_thread_activity_title' =>		'{actor} 發起了新活動',

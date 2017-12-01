@@ -168,7 +168,7 @@ CSS 寫作注意事項：
 	Last Modify:	lushnis
 */
 	/* .wx --> weight text 粗體字，通常用於大標題 */
-	.wx, .ph { font-family: 'Microsoft YaHei', 'Hiragino Sans GB', 'STHeiti', Tahoma, 'SimHei', sans-serif; font-weight: 100; }
+	.wx, .ph { font-family: 'Microsoft JhengHei', 'Hiragino Sans GB', 'STHeiti', Tahoma, 'SimHei', sans-serif; font-weight: 100; }
 	/* Page header */ .ph { font-size: 20px; }
 	/* Main title */ .mt { padding: 10px 0; font-size: 15px; }
 

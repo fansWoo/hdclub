@@ -24,7 +24,7 @@ $lang = array(
   'ranklist_title_member_blog' => '日誌數排行',
   'ranklist_title_member_onlinetime' => '在線時間排行',
 
-  'ranklist_title_thread_reply' => '帖子回復排行',
+  'ranklist_title_thread_reply' => '帖子回覆排行',
   'ranklist_title_thread_view' => '帖子查看排行',
   'ranklist_title_thread_share' => '帖子分享排行',
   'ranklist_title_thread_favorite' => '帖子收藏排行',
@@ -58,14 +58,14 @@ $lang = array(
   'ranklist_title_picture_5' => '圖片雞蛋排行',
 
   'ranklist_title_forum_thread' => '版塊發帖排行',
-  'ranklist_title_forum_post' => '版塊回復排行',
+  'ranklist_title_forum_post' => '版塊回覆排行',
   'ranklist_title_forum_post_30' => '版塊 30 天發帖排行',
   'ranklist_title_forum_post_24' => '版塊最近 24 小時發帖排行',
 
   'ranklist_title_group_credit' => '群組積分排行',
   'ranklist_title_group_member' => '群組成員數排行',
   'ranklist_title_group_thread' => '群組發帖排行',
-  'ranklist_title_group_post' => '群組回復排行',
+  'ranklist_title_group_post' => '群組回覆排行',
   'ranklist_title_group_post_30' => '群組最近 30 天發帖排行',
   'ranklist_title_group_post_24' => '群組最近 24 小時發帖排行',
 

@@ -169,7 +169,7 @@ function parsetag(pid) {
 }
 
 function setanswer(pid, from){
-	if(confirm('您確認要把該回復選為「最佳答案」嗎？')){
+	if(confirm('您確認要把該回覆選為「最佳答案」嗎？')){
 		if(BROWSER.ie) {
 			doane(event);
 		}
@@ -395,11 +395,11 @@ function replyNotice() {
 	var status = replynotice.getAttribute("status");
 	if(status == 1) {
 		replynotice.href = newurl + 'receive';
-		replynotice.innerHTML = '接收回復通知';
+		replynotice.innerHTML = '接收回覆通知';
 		replynotice.setAttribute("status", 0);
 	} else {
 		replynotice.href = newurl + 'ignore';
-		replynotice.innerHTML = '取消回復通知';
+		replynotice.innerHTML = '取消回覆通知';
 		replynotice.setAttribute("status", 1);
 	}
 }
@@ -789,7 +789,7 @@ function succeedhandle_vfastpost(url, message, param) {
 }
 
 function vmessage() {
-	var vf_tips = '#在這裡快速回復#';
+	var vf_tips = '#在這裡快速回覆#';
 	$('vmessage').value = vf_tips;
 	$('vmessage').style.color = '#CDCDCD';
 	$('vmessage').onclick = function() {

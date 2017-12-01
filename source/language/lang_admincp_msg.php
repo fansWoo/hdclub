@@ -619,7 +619,7 @@ $lang = array (
   'moderate_articlecomments_succeed' => '審核操作成功，共 {validates} 個評論被通過，{ignores} 個評論被忽略，{deletes} 個評論被刪除',
   'moderate_topiccomments_succeed' => '審核操作成功，共 {validates} 個評論被通過，{ignores} 個評論被忽略，{deletes} 個評論被刪除',
 
-  'moderate_replies_succeed' => '審核操作成功，共 {validates} 個回復被通過，{ignores} 個回復被忽略，{deletes} 個回復被刪除',
+  'moderate_replies_succeed' => '審核操作成功，共 {validates} 個回覆被通過，{ignores} 個回覆被忽略，{deletes} 個回覆被刪除',
 
   'moderate_shares_succeed' => '審核操作成功，共 {validates} 個分享被通過，{ignores} 個分享被忽略，{deletes} 個分享被刪除',
 

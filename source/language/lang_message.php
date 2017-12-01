@@ -125,7 +125,7 @@ $lang = array (
   'trade_credit_more_than' => '抱歉，商品積分價格必須大於 {mintradeprice} ',
   'trade_pricecredit_need' => '抱歉，商品價格不能為空',
   'tread_please_number' => '抱歉，商品數量不能為空',
-  'post_reply_mod_succeed' => '回復需要審核，請等待通過',
+  'post_reply_mod_succeed' => '回覆需要審核，請等待通過',
   'postperm_login_nopermission' => '抱歉，您尚未登錄，沒有權限在該版塊發帖',
   'post_type_isnull' => '抱歉，您尚未選擇主題的類別',
   'post_net_price_iszero' => '抱歉，您的主題售價扣除積分交易稅後為 0',
@@ -317,7 +317,7 @@ $lang = array (
   'postappend_add_succeed' => '添加成功 ',
   'replynotice_success_1' => '接收設置成功 ',
   'replynotice_success_0' => '取消設置成功 ',
-  'replynotice_error' => '抱歉，回復通知設置失敗，主題正在審核或不存在',
+  'replynotice_error' => '抱歉，回覆通知設置失敗，主題正在審核或不存在',
   'no_privilege_indexheats' => '抱歉，您沒有權限刪除論壇熱點項目',
   'forum_nopermission' => '本版塊只有特定用戶組可以訪問',
   'thread_poll_invalid' => '抱歉，您沒有選擇投票選項',
@@ -346,7 +346,7 @@ $lang = array (
   'thread_pay_succeed' => '主題購買成功 ',
   'threadmod_nonexistence' => '抱歉，主題管理記錄不存在或已過期刪除',
   'reward_cant_operate' => '抱歉，您不能設置最佳答案',
-  'reward_cant_self' => '抱歉，您不能把自己的回復設置成最佳答案',
+  'reward_cant_self' => '抱歉，您不能把自己的回覆設置成最佳答案',
   'reward_repeat_selection' => '抱歉，不能重複選定最佳答案',
   'reward_completion' => '最佳答案設置成功 ',
   'activity_stop' => '抱歉，活動已停止申請',
@@ -645,21 +645,21 @@ $lang = array (
   'reward_credits_fall' => '抱歉，懸賞積分不能減少',
   'post_edit_thread_replaycredit_nocredit' => '您的積分不足，不能為回帖獎勵增加積分',
   'post_edit_thread_ban_del' => '抱歉，編輯帖子時不允許刪除帖子',
-  'post_edit_reward_already_reply' => '抱歉，您不能刪除已經有回復的懸賞',
-  'post_edit_thread_already_reply' => '對不起，您不能刪除已經有回復的主題，請返回。',
+  'post_edit_reward_already_reply' => '抱歉，您不能刪除已經有回覆的懸賞',
+  'post_edit_thread_already_reply' => '對不起，您不能刪除已經有回覆的主題，請返回。',
   'post_edit_reward_nopermission' => '抱歉，懸賞已結束，無法退還積分',
   'post_edit_delete_rushreply_nopermission' => '抱歉，搶樓帖不能刪除',
   'auditstatuson_succeed' => '審核成功，點擊查看該帖',
   'audit_edit_succeed' => '<a href="javascript:if(opener)opener.location.reload();window.close();"> 編輯成功，點擊關閉本頁</a>',
   'edit_newthread_mod_succeed' => '編輯後的主題需要審核，請等待審核通過',
-  'edit_reply_mod_succeed' => '編輯後的回復需要審核，請等待審核通過',
+  'edit_reply_mod_succeed' => '編輯後的回覆需要審核，請等待審核通過',
   'post_edit_succeed' => '帖子編輯成功，現在將轉入主題頁，請稍候……<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 點擊這裡轉入主題列表 ]</a>',
 
-  'post_forum_newreply_nopermission' => '抱歉，本版塊只有特定用戶組可以回復',
+  'post_forum_newreply_nopermission' => '抱歉，本版塊只有特定用戶組可以回覆',
   'comment_add_succeed' => '帖子點評成功 ',
   'post_rushreply_creditlimit' => '抱歉，您的 {creditlimit_title} 不足，本搶樓帖限制最小 {creditlimit_title} 為 {creditlimit}',
-  'trade_newreply_nopermission' => '抱歉，只有已開放的商品主題可以回復',
-  'post_reply_succeed' => '非常感謝，回復發佈成功，現在將轉入主題頁，請稍候……<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 點擊這裡轉入主題列表 ]</a>',
+  'trade_newreply_nopermission' => '抱歉，只有已開放的商品主題可以回覆',
+  'post_reply_succeed' => '非常感謝，回覆發佈成功，現在將轉入主題頁，請稍候……<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 點擊這裡轉入主題列表 ]</a>',
   'trade_add_succeed' => '非常感謝，您的商品已經發佈，現在將轉入主題頁，請稍候……<br /><a href="forum.php?mod=post&action=reply&fid={fid}&tid={tid}&addtrade=yes">[ 繼續添加商品請點擊這裡 ]</a><br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ 點擊這裡轉入主題列表 ]</a>',
 
   'postperm_login_nopermission_mobile' => '您尚未<a href="member.php?mod=logging&action=login&referer={referer}">登錄</a>，沒有權限在該版塊發帖',
@@ -852,7 +852,7 @@ $lang = array (
   'moderate_article_not_share' => '抱歉，不能分享尚未通過審核的文章',
   'url_incorrect_format' => '抱歉，分享的網址格式不正確',
   'no_privilege_commentadd' => '抱歉，您沒有權限發表評論',
-  'do_success_thread_share_mod' => '您的分享成功了，回復請等待管理員審核通過',
+  'do_success_thread_share_mod' => '您的分享成功了，回覆請等待管理員審核通過',
   'spacecp_share_repeat' => '抱歉，您已分享，請勿重複分享',
 
   'showcredit_fuid_error' => '抱歉，您指定的用戶不是您的好友，請確認',
@@ -913,7 +913,7 @@ $lang = array (
   'no_privilege_restore' => '抱歉，您沒有權限恢復此主題',
 
   'no_privilege_splitthread' => '抱歉，您沒有權限分割此主題',
-  'admin_split_invalid' => '抱歉，主題沒有回復，無法分割',
+  'admin_split_invalid' => '抱歉，主題沒有回覆，無法分割',
   'admin_split_subject_invalid' => '抱歉，您尚未輸入標題',
 
   'no_privilege_stampthread' => '抱歉，您沒有權限給主題添加圖章',
@@ -933,7 +933,7 @@ $lang = array (
   'no_privilege_ckpassword_blog' => '抱歉，您的密碼輸入錯誤，不能評論此日誌',
   'do_not_accept_comments' => '抱歉，該日誌不接受評論',
   'sharing_does_not_exist' => '抱歉，評論的分享不存在',
-  'note_wall_reply_success' => '已經回復到{username}的留言板',
+  'note_wall_reply_success' => '已經回覆到{username}的留言板',
 
   'period_nopermission' => '抱歉，管理員設置了每日 {banperiods} 不能進行此操作或訪問此頁面，請其他時間再試',
 
@@ -964,8 +964,8 @@ $lang = array (
   'file_size_overflow' => '抱歉，文件不能大於 {size} 字節',
   'forum_archiver_disabled' => '抱歉，論壇 Archiver 功能尚未開啟',
 
-  'post_thread_closed_by_dateline' => '抱歉，管理員設置了本版塊發表於 {autoclose} 天以前的主題自動關閉，不再接受新回復',
-  'post_thread_closed_by_lastpost' => '抱歉，管理員設置了本版塊最後回復於 {autoclose} 天以前的主題自動關閉，不再接受新回復',
+  'post_thread_closed_by_dateline' => '抱歉，管理員設置了本版塊發表於 {autoclose} 天以前的主題自動關閉，不再接受新回覆',
+  'post_thread_closed_by_lastpost' => '抱歉，管理員設置了本版塊最後回覆於 {autoclose} 天以前的主題自動關閉，不再接受新回覆',
 
   'length_is_not_within_the_scope_of' => '抱歉，分頁數不在允許的範圍內',
 

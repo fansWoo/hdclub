@@ -265,7 +265,7 @@ $extend_lang = array
 	'qqgroup_search_order_replies' => '回複數倒序',
 	'qqgroup_search_order_heats' => '熱度倒序',
 	'qqgroup_search_order_dateline' => '發佈時間倒序',
-	'qqgroup_search_order_lastpost' => '最後回復倒序',
+	'qqgroup_search_order_lastpost' => '最後回覆倒序',
 	'qqgroup_search_order_recommends' => '主題評價倒序',
 
 	'qqgroup_search_dateline_1' => '1小時內發佈的主題',
@@ -359,7 +359,7 @@ $extend_lang = array
 	'security_usergroup_white_list' => '用戶組白名單',
 	'security_usergroup_white_list_comment' => '所選用戶組內用戶的操作，防水牆不做處理，可以按住 CTRL 多選',
 	'security_forum_white_list' => '版塊白名單',
-	'security_forum_white_list_comment' => '所選版塊內的主題和回復，防水牆不做處理，可以按住 CTRL 多選',
+	'security_forum_white_list_comment' => '所選版塊內的主題和回覆，防水牆不做處理，可以按住 CTRL 多選',
 	'security_recyclebin_thread' => '到回收站處理主題',
 	'security_recyclebin_post' => '到回收站處理回帖',
 	'security_thread_status' => '主題狀態',
@@ -372,7 +372,7 @@ $extend_lang = array
 	'security_createtime' => '違規日期',
 	'security_safe_list' => '安全設置',
 	'security_safe_login_open' => '開啟安全登錄功能',
-	'security_safe_login_open_comment' => '有效防止惡意註冊！選擇是，用戶必須將論壇帳號與QQ帳號綁定後，才能在論壇發帖，回復',
+	'security_safe_login_open_comment' => '有效防止惡意註冊！選擇是，用戶必須將論壇帳號與QQ帳號綁定後，才能在論壇發帖，回覆',
 	'security_qq_login_alone_open' => '開啟QQ獨立登錄',
 	'security_qq_login_alone_open_comment' => '有效防止盜號！開啟後只能使用QQ號登錄，即便盜取了論壇帳號也無法登錄發帖',
 

@@ -39,14 +39,14 @@
 				</item>
 			</item>
 		</item>
-		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2]]></item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4]]></item>
 		<item id="language">
 			<item id="scriptlang">
 				<item id="mobile_tip_ios"><![CDATA[<a href="http://www.discuz.net/mobile.php?platform=ios">用掌上論壇訪問本站,擁有更好閱讀體驗</a>]]></item>
 				<item id="mobile_tip_android"><![CDATA[<a href="http://www.discuz.net/mobile.php?platform=android">用掌上論壇訪問本站,擁有更好閱讀體驗</a>]]></item>
 				<item id="mobile_tip_wp7"><![CDATA[<a href="http://www.discuz.net/mobile.php?platform=windowsphone">用掌上論壇訪問本站,擁有更好閱讀體驗</a>]]></item>
 				<item id="mobile_extend_newthread"><![CDATA[最新發表]]></item>
-				<item id="mobile_extend_newreply"><![CDATA[最新回復]]></item>
+				<item id="mobile_extend_newreply"><![CDATA[最新回覆]]></item>
 				<item id="mobile_extend_digest"><![CDATA[最新精華]]></item>
 				<item id="mobile_extend_newpic"><![CDATA[最新圖片]]></item>
 				<item id="mobile_fromtype_ios"><![CDATA[來自: iPhone客戶端]]></item>
@@ -86,7 +86,7 @@
 				<item id="qqregmode1"><![CDATA[完善帳號信息]]></item>
 				<item id="qqregmode2"><![CDATA[綁定已有帳號]]></item>
 				<item id="register_validate_email_tips"><![CDATA[註冊需要驗證郵箱，請務必填寫正確的郵箱，提交後請及時查收郵件。]]></item>
-				<item id="post_hide_reply_hidden"><![CDATA[如果您要查看本帖隱藏內容請回復]]></item>
+				<item id="post_hide_reply_hidden"><![CDATA[如果您要查看本帖隱藏內容請回覆]]></item>
 			</item>
             <item id="installlang">
                 <item id="mobilesign"><![CDATA[微社區簽到]]></item>

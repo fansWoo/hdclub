@@ -407,7 +407,9 @@ span.y {
     padding: 10px;
     overflow: hidden;
 }
-
+.ie_all .sxpuser ul li{
+    float: left;
+}
 .sxpuser ul li:hover {
     background: url({STYLEIMGDIR}/libg.png) repeat;
 }
@@ -436,6 +438,10 @@ span.y {
     height: 30px;
     line-height: 30px;
     overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
 }
 
 .sxpuser_r h5 a {
@@ -446,7 +452,7 @@ span.y {
 
 .sxpuser_r p {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.65);
+    color: #cdcdcd;
     margin-top: 5px;
     line-height: 22px;
     margin-bottom: 10px;
@@ -937,7 +943,7 @@ span.y {
 .tl td em,
 .tl td em a {
     font-size: 14px;
-    font-family: 'Microsoft Yahei', 'Simsun', Tahoma;
+    font-family: 'Microsoft JhengHei', 'Simsun', Tahoma;
 }
 
 #threadlist {
@@ -1061,7 +1067,7 @@ span.y {
 .tl td .mi_postlist p em {
     padding-right: 5px;
     font-size: 14px;
-    font-family: 'Microsoft Yahei', 'Simsun', Tahoma;
+    font-family: 'Microsoft JhengHei', 'Simsun', Tahoma;
 }
 
 .tl td .mi_postlist p em,
@@ -1648,9 +1654,8 @@ body {
 #sxp_nv3 ul li.a a,
 #sxp_nv3 ul li.hover a,
 #sxp_nv3 li.hover a:hover {
-    background: url(http://fanswoo-xxxx.com/hd.club.tw/template/sxp_bbs_105s/image/menu_button_bk.jpg) repeat-x 100% 100%;
+    background: url(../../template/sxp_bbs_105s/image/menu_button_bk.jpg) repeat-x 100% 100%;
 }
-
 #hd .h_pop {
     background: #1a1a1a;
 }
@@ -1673,13 +1678,7 @@ body {
     border: 1px solid #666;
 }
 
-#scrolltop a.scrolltopa:hover {
-    background-color: #2C90ED !important;
-}
 
-#scrolltop a:hover {
-    border-color: #2C90ED;
-}
 
 
 /** end **/

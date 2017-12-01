@@ -184,7 +184,7 @@
 				</item>
 			</item>
 		</item>
-		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2]]></item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4]]></item>
 		<item id="language">
 			<item id="scriptlang">
 				<item id="wechat_undefined"><![CDATA[此鏈接已過期，請重新在微信中生成此鏈接]]></item>
@@ -236,7 +236,7 @@
 				<item id="wechat_mptype_0"><![CDATA[無公眾號/訂閱號/未認證服務號]]></item>
 				<item id="wechat_mptype_1"><![CDATA[訂閱號]]></item>
 				<item id="wechat_mptype_2"><![CDATA[認證服務號]]></item>
-				<item id="wechat_service_setting"><![CDATA[服務器配置 <span class="normal">(如果您希望在插件後台使用微信關鍵詞回復等功能，請把此欄中的內容填寫到微信公眾平台「開發者中心」設置中，不填寫不會影響微社區正常使用)</span>]]></item>
+				<item id="wechat_service_setting"><![CDATA[服務器配置 <span class="normal">(如果您希望在插件後台使用微信關鍵詞回覆等功能，請把此欄中的內容填寫到微信公眾平台「開發者中心」設置中，不填寫不會影響微社區正常使用)</span>]]></item>
 				<item id="wechat_devid_setting"><![CDATA[開發者 ID <span class="normal">(如果您希望在插件後台設置微信自定義菜單並擁有公眾號「開發者 ID」，請把該信息填寫此欄目中)</span>]]></item>
 				<item id="wechat_func_setting"><![CDATA[功能設置]]></item>
 				<item id="wechat_wsq_setting"><![CDATA[微社區設置]]></item>
@@ -291,7 +291,7 @@
 				<item id="wsq_fid_comment"><![CDATA[設置在微社區中默認顯示的版塊]]></item>
 				<item id="wsq_domain"><![CDATA[微社區二級域名]]></item>
 				<item id="wsq_domain_comment"><![CDATA[您可以設置一個二級域名直接訪問本站的微社區(僅限擁有「高級接口」服務的公眾號)。根域名設置完後，此處域名綁定才能生效</a>]]></item>
-				<item id="wechat_forumdisplay_reply"><![CDATA[帖子列表頁是否顯示最新回復]]></item>
+				<item id="wechat_forumdisplay_reply"><![CDATA[帖子列表頁是否顯示最新回覆]]></item>
 				<item id="wsq_api_register_error"><![CDATA[微社區註冊失敗，請稍後再試]]></item>
 				<item id="wsq_api_servertime_error"><![CDATA[服務器時間錯誤，請修改後再試]]></item>
 				<item id="wsq_api_edit_error"><![CDATA[微社區資料修改失敗，請稍後再試]]></item>
@@ -353,7 +353,7 @@
 				<item id="show_thread_place"><![CDATA[手機微信曬圖]]></item>
 				<item id="show_input_error"><![CDATA[請填寫完整資料]]></item>
 				<item id="show_addthread_succeed"><![CDATA[曬圖活動已發佈完成]]></item>
-				<item id="show_please_reply"><![CDATA[通過回復上傳圖片後，您將自動參與此活動]]></item>
+				<item id="show_please_reply"><![CDATA[通過回覆上傳圖片後，您將自動參與此活動]]></item>
 				<item id="show_no_cancel"><![CDATA[您無法取消此活動的報名]]></item>
 				<item id="show_disabled"><![CDATA[曬圖活動中您無法進行此操作]]></item>
 				<item id="show_no_begin"><![CDATA[活動尚未開始]]></item>

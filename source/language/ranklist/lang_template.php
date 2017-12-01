@@ -44,8 +44,8 @@ $lang = array (
   'ranklist_forum_post' => '發帖',
   'ranklist_post' => '發帖排行',
   'ranklist_post_day' => '最近 24 小時發帖排行',
-  'ranklist_reply' => '回復排行',
-  'reply' => '回復',
+  'ranklist_reply' => '回覆排行',
+  'reply' => '回覆',
   'credit_num' => '積分數',
   'credit_ranking' => '積分排行',
   'group' => '群組',
@@ -130,7 +130,7 @@ $lang = array (
   'user' => '用戶',
   'author' => '作者',
   'ranklist_thread_heat' => '熱度',
-  'ranklist_thread_reply' => '回復',
+  'ranklist_thread_reply' => '回覆',
   'thread' => '主題',
 );
 

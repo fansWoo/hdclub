@@ -22,7 +22,8 @@ $lang = array (
   'personal_category' => '個人分類',
   'related_blog' => '相關日誌',
   'related_thread' => '相關帖子',
-  'replies' => '回復/查看',
+  'replies' => '回覆/查看',
+  'price' => '售價',
 );
 
 ?>
