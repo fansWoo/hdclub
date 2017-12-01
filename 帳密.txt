@@ -1,0 +1,17 @@
+db ³]©w
+// ----------------------------  CONFIG DB  ----------------------------- //
+$_config['db']['1']['dbhost'] = 'localhost';
+$_config['db']['1']['dbuser'] = 'hd.club.tw';
+$_config['db']['1']['dbpw'] = 'bulcdh';
+$_config['db']['1']['dbcharset'] = 'utf8';
+$_config['db']['1']['pconnect'] = '0';
+$_config['db']['1']['dbname'] = 'hd_club_tw';
+$_config['db']['1']['tablepre'] = 'pre_';
+$_config['db']['common']['slave_except_table'] = '';
+
+
+202.133.237.13
+ssh:22
+user:root
+pass:west0922177496
+
