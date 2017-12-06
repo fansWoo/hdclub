@@ -4,96 +4,60 @@
 	<item id="layoutdata">
 		<item id="diy1004"><![CDATA[]]></item>
 		<item id="diy998"><![CDATA[]]></item>
-		<item id="diy895">
-			<item id="frame`framesCnfza">
-				<item id="attr">
-					<item id="name"><![CDATA[framesCnfza]]></item>
-					<item id="moveable"><![CDATA[true]]></item>
-					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
-					<item id="titles"><![CDATA[]]></item>
-				</item>
-				<item id="column`framesCnfza_left">
-					<item id="attr">
-						<item id="name"><![CDATA[framesCnfza_left]]></item>
-						<item id="className"><![CDATA[column frame-1-c]]></item>
-					</item>
-					<item id="block`portal_block_934">
-						<item id="attr">
-							<item id="name"><![CDATA[portal_block_934]]></item>
-							<item id="className"><![CDATA[block move-span]]></item>
-							<item id="titles"><![CDATA[]]></item>
-						</item>
-					</item>
-				</item>
-			</item>
-			<item id="frame`frameT095X8">
-				<item id="attr">
-					<item id="name"><![CDATA[frameT095X8]]></item>
-					<item id="moveable"><![CDATA[true]]></item>
-					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
-					<item id="titles"><![CDATA[]]></item>
-				</item>
-				<item id="column`frameT095X8_left">
-					<item id="attr">
-						<item id="name"><![CDATA[frameT095X8_left]]></item>
-						<item id="className"><![CDATA[column frame-1-c]]></item>
-					</item>
-				</item>
-			</item>
-		</item>
+		<item id="diy895"><![CDATA[]]></item>
 		<item id="diy898">
-			<item id="frame`framepR2fzS">
+			<item id="frame`framev2d8zW">
 				<item id="attr">
-					<item id="name"><![CDATA[framepR2fzS]]></item>
+					<item id="name"><![CDATA[framev2d8zW]]></item>
 					<item id="moveable"><![CDATA[true]]></item>
 					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
 					<item id="titles"><![CDATA[]]></item>
 				</item>
-				<item id="column`framepR2fzS_left">
+				<item id="column`framev2d8zW_left">
 					<item id="attr">
-						<item id="name"><![CDATA[framepR2fzS_left]]></item>
+						<item id="name"><![CDATA[framev2d8zW_left]]></item>
 						<item id="className"><![CDATA[column frame-1-c]]></item>
 					</item>
-					<item id="block`portal_block_931">
+					<item id="block`portal_block_529">
 						<item id="attr">
-							<item id="name"><![CDATA[portal_block_931]]></item>
+							<item id="name"><![CDATA[portal_block_529]]></item>
 							<item id="className"><![CDATA[cl_block_bm block move-span]]></item>
 							<item id="titles"><![CDATA[]]></item>
 						</item>
 					</item>
 				</item>
 			</item>
-			<item id="frame`frameJn497y">
+			<item id="frame`framejUquQW">
 				<item id="attr">
-					<item id="name"><![CDATA[frameJn497y]]></item>
+					<item id="name"><![CDATA[framejUquQW]]></item>
 					<item id="moveable"><![CDATA[true]]></item>
 					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
 					<item id="titles"><![CDATA[]]></item>
 				</item>
-				<item id="column`frameJn497y_left">
+				<item id="column`framejUquQW_left">
 					<item id="attr">
-						<item id="name"><![CDATA[frameJn497y_left]]></item>
+						<item id="name"><![CDATA[framejUquQW_left]]></item>
 						<item id="className"><![CDATA[column frame-1-c]]></item>
 					</item>
 				</item>
 			</item>
 		</item>
 		<item id="diy897">
-			<item id="frame`frameBXUZfQ">
+			<item id="frame`frameNZ6182">
 				<item id="attr">
-					<item id="name"><![CDATA[frameBXUZfQ]]></item>
+					<item id="name"><![CDATA[frameNZ6182]]></item>
 					<item id="moveable"><![CDATA[true]]></item>
 					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
 					<item id="titles"><![CDATA[]]></item>
 				</item>
-				<item id="column`frameBXUZfQ_left">
+				<item id="column`frameNZ6182_left">
 					<item id="attr">
-						<item id="name"><![CDATA[frameBXUZfQ_left]]></item>
+						<item id="name"><![CDATA[frameNZ6182_left]]></item>
 						<item id="className"><![CDATA[column frame-1-c]]></item>
 					</item>
-					<item id="block`portal_block_932">
+					<item id="block`portal_block_530">
 						<item id="attr">
-							<item id="name"><![CDATA[portal_block_932]]></item>
+							<item id="name"><![CDATA[portal_block_530]]></item>
 							<item id="className"><![CDATA[block move-span]]></item>
 							<item id="titles"><![CDATA[]]></item>
 						</item>
@@ -102,37 +66,37 @@
 			</item>
 		</item>
 		<item id="diy_chart">
-			<item id="frame`frameZHh5Y5">
+			<item id="frame`frameW4kV2w">
 				<item id="attr">
-					<item id="name"><![CDATA[frameZHh5Y5]]></item>
+					<item id="name"><![CDATA[frameW4kV2w]]></item>
 					<item id="moveable"><![CDATA[true]]></item>
 					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
 					<item id="titles"><![CDATA[]]></item>
 				</item>
-				<item id="column`frameZHh5Y5_left">
+				<item id="column`frameW4kV2w_left">
 					<item id="attr">
-						<item id="name"><![CDATA[frameZHh5Y5_left]]></item>
+						<item id="name"><![CDATA[frameW4kV2w_left]]></item>
 						<item id="className"><![CDATA[column frame-1-c]]></item>
 					</item>
-					<item id="block`portal_block_933">
+					<item id="block`portal_block_531">
 						<item id="attr">
-							<item id="name"><![CDATA[portal_block_933]]></item>
+							<item id="name"><![CDATA[portal_block_531]]></item>
 							<item id="className"><![CDATA[block move-span]]></item>
 							<item id="titles"><![CDATA[]]></item>
 						</item>
 					</item>
 				</item>
 			</item>
-			<item id="frame`frameQWZb1c">
+			<item id="frame`framen3S311">
 				<item id="attr">
-					<item id="name"><![CDATA[frameQWZb1c]]></item>
+					<item id="name"><![CDATA[framen3S311]]></item>
 					<item id="moveable"><![CDATA[true]]></item>
 					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
 					<item id="titles"><![CDATA[]]></item>
 				</item>
-				<item id="column`frameQWZb1c_left">
+				<item id="column`framen3S311_left">
 					<item id="attr">
-						<item id="name"><![CDATA[frameQWZb1c_left]]></item>
+						<item id="name"><![CDATA[framen3S311_left]]></item>
 						<item id="className"><![CDATA[column frame-1-c]]></item>
 					</item>
 				</item>
@@ -146,8 +110,8 @@
 	</item>
 	<item id="blockdata">
 		<item id="block">
-			<item id="931">
-				<item id="bid"><![CDATA[931]]></item>
+			<item id="529">
+				<item id="bid"><![CDATA[529]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[sxp_list]]></item>
@@ -207,16 +171,16 @@
 </ul></div>]]></item>
 						<item id="footer"><![CDATA[]]></item>
 						<item id="header"><![CDATA[]]></item>
-						<item id="indexplus">
-						</item>
-						<item id="index">
-						</item>
-						<item id="orderplus">
-						</item>
-						<item id="order">
-						</item>
-						<item id="loopplus">
-						</item>
+						<item id="indexplus"><![CDATA[
+						]]></item>
+						<item id="index"><![CDATA[
+						]]></item>
+						<item id="orderplus"><![CDATA[
+						]]></item>
+						<item id="order"><![CDATA[
+						]]></item>
+						<item id="loopplus"><![CDATA[
+						]]></item>
 						<item id="loop"><![CDATA[<li>
 <div class="sxpuser_l">
 <a href="{url}"{target}><img style="background-image:url({pic})" src="" width="{picwidth}" height="{picheight}" alt="" /></a>
@@ -272,12 +236,12 @@
 				<item id="cachetimerange"><![CDATA[]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1512092362]]></item>
+				<item id="dateline"><![CDATA[1512530270]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
-			<item id="932">
-				<item id="bid"><![CDATA[932]]></item>
+			<item id="530">
+				<item id="bid"><![CDATA[530]]></item>
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[ad]]></item>
@@ -311,12 +275,12 @@
 				<item id="cachetimerange"><![CDATA[0,0]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1511840589]]></item>
+				<item id="dateline"><![CDATA[1512530270]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
-			<item id="933">
-				<item id="bid"><![CDATA[933]]></item>
+			<item id="531">
+				<item id="bid"><![CDATA[531]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[首页文字列表]]></item>
@@ -472,50 +436,7 @@
 				<item id="cachetimerange"><![CDATA[]]></item>
 				<item id="punctualupdate"><![CDATA[0]]></item>
 				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1512092353]]></item>
-				<item id="notinherited"><![CDATA[0]]></item>
-				<item id="isblank"><![CDATA[0]]></item>
-			</item>
-			<item id="934">
-				<item id="bid"><![CDATA[934]]></item>
-				<item id="blockclass"><![CDATA[html_html]]></item>
-				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[ad]]></item>
-				<item id="title"><![CDATA[]]></item>
-				<item id="classname"><![CDATA[]]></item>
-				<item id="summary"><![CDATA[<div class="sxpsd_area2"><ul>
- <li><a onclick="showWindow('nav', this.href, 'get', 0)" href="forum.php?mod=misc&amp;action=nav" title="發帖" class="area2_ft"><i class="area2_cion1"></i><span>發帖</span></a></li>
-
-<li><a href="#" title="簽到"><i class="area2_icon2"></i><span>簽到</span></a></li>
-
-</ul></div>
- <div class="clear height20"></div>]]></item>
-				<item id="uid"><![CDATA[1]]></item>
-				<item id="username"><![CDATA[admin]]></item>
-				<item id="styleid"><![CDATA[0]]></item>
-				<item id="blockstyle"><![CDATA[]]></item>
-				<item id="picwidth"><![CDATA[0]]></item>
-				<item id="picheight"><![CDATA[0]]></item>
-				<item id="target"><![CDATA[blank]]></item>
-				<item id="dateformat"><![CDATA[Y-m-d]]></item>
-				<item id="dateuformat"><![CDATA[0]]></item>
-				<item id="script"><![CDATA[blank]]></item>
-				<item id="param">
-					<item id="content"><![CDATA[        <div class=\"sxpsd_area2\"><ul>
- <li><a onclick=\"showWindow(\'nav\', this.href, \'get\', 0)\" href=\"forum.php?mod=misc&amp;action=nav\" title=\"發帖\" class=\"area2_ft\"><i class=\"area2_cion1\"></i><span>發帖</span></a></li>
-
-<li><a href=\"#\" title=\"簽到\"><i class=\"area2_icon2\"></i><span>簽到</span></a></li>
-
-</ul></div>
- <div class=\"clear height20\"></div>]]></item>
-					<item id="items"><![CDATA[10]]></item>
-				</item>
-				<item id="shownum"><![CDATA[10]]></item>
-				<item id="cachetime"><![CDATA[0]]></item>
-				<item id="cachetimerange"><![CDATA[0,0]]></item>
-				<item id="punctualupdate"><![CDATA[0]]></item>
-				<item id="hidedisplay"><![CDATA[0]]></item>
-				<item id="dateline"><![CDATA[1511774988]]></item>
+				<item id="dateline"><![CDATA[1512530270]]></item>
 				<item id="notinherited"><![CDATA[0]]></item>
 				<item id="isblank"><![CDATA[0]]></item>
 			</item>
