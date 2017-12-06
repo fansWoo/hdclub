@@ -820,7 +820,7 @@ a.thread_mod { background: url({IMGDIR}/bigimg.png) no-repeat 0 -38px; padding-l
 .showhide { width: 12px; height: 12px; background: url({IMGDIR}/close.gif) no-repeat 0 0; text-indent: -999em; cursor: pointer; overflow: hidden; margin: 5px 5px 0px 5px; }
 .showhide:hover { background-position: 0 -12px; }
 .ie6 .showhide { display: none; }
-.pcb .jammer { font-size: 10px; color: {WRAPBG}; }
+.pcb .jammer { font-size: 10px; color: {WRAPBG}; background-color: {WRAPBG}; }
 /* 屏蔽提示 */
 #hiddenthread { border-top: 1px solid #C2D5E3; border-bottom: 1px solid #C2D5E3; line-height:40px;padding-left:20px;background: #FFFAF3; font-size: 12px; text-align: center; }
 #hiddenthread.last, .ie6 #hiddenthread, .ie7 #hiddenthread, .ie8 #hiddenthread { border-top: none; }
@@ -888,7 +888,7 @@ a.thread_mod { background: url({IMGDIR}/bigimg.png) no-repeat 0 -38px; padding-l
 				#ph h1 { font-size: 16px; }
 			#fj { margin-left: 5px; }
 				#fj label, #fj input { margin-right: 4px; padding: 0; height: 16px; line-height: 16px; }
-		.pcb .jammer { font-size: 10px; color: {WRAPBG}; }
+		.pcb .jammer { font-size: 10px; color: {WRAPBG}; background-color: {WRAPBG}; }
 
 		.pcb strong { font-weight: 700; }
 		.pcb em { color: {MIDTEXT}; }

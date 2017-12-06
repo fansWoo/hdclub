@@ -1,163 +1,163 @@
-<!--{if $_G['setting']['mobile']['mobilehotthread'] && $_GET['forumlist'] != 1}-->
-<!--{eval dheader('Location:forum.php?mod=guide&view=hot');exit;}-->
-<!--{/if}-->
-<!--{template common/header}-->
-
-<script type="text/javascript">
-    function getvisitclienthref() {
-        var visitclienthref = '';
-        if (ios) {
-            visitclienthref = 'https://itunes.apple.com/cn/app/zhang-shang-lun-tan/id489399408?mt=8';
-        } else if (andriod) {
-            visitclienthref = 'http://www.discuz.net/mobile.php?platform=android';
-        }
-        return visitclienthref;
-    }
-    // var userAgent = navigator.userAgent;
-    // console.log(userAgent);
-    // if (/Android/i.test(userAgent)) {
-    //     //是否為Android
-    // } else if (/iPhone|iPad/i.test(userAgent)) {
-    //     //是否為iPhone或iPad
-    // } else if (/Windows/i.test(userAgent)) {
-    //     //使否是用電腦觀看
-    // }
-</script>
-
-<!--{if $_GET['visitclient']}-->
-
-<header class="header">
-    <div class="nav">
-        <span>{lang warmtip}</span>
-    </div>
-</header>
-<div class="cl">
-    <div class="clew_con">
-        <h2 class="tit">{lang zsltmobileclient}</h2>
-        <p>{lang visitbbsanytime}<input class="redirect button" id="visitclientid" type="button" value="{lang clicktodownload}" href="" /></p>
-        <h2 class="tit">{lang iphoneandriodmobile}</h2>
-        <p>{lang visitwapmobile}<input class="redirect button" type="button" value="{lang clicktovisitwapmobile}" href="$_GET[visitclient]" /></p>
-    </div>
-</div>
-<script type="text/javascript">
-    var visitclienthref = getvisitclienthref();
-    if (visitclienthref) {
-        $('#visitclientid').attr('href', visitclienthref);
-    } else {
-        window.location.href = '$_GET[visitclient]';
-    }
-</script>
-
-<!--{else}-->
-
-<!-- header start -->
-<!--{if $showvisitclient}-->
-
-<div class="visitclienttip vm" style="display:block;">
-    <a href="javascript:;" id="visitclientid" class="btn_download">{lang downloadnow}</a>
-    <p>
-        {lang downloadzslttoshareview}
-    </p>
-</div>
-<script type="text/javascript">
-    var visitclienthref = getvisitclienthref();
-    if (visitclienthref) {
-        $('#visitclientid').attr('href', visitclienthref);
-        $('.visitclienttip').css('display', 'block');
-    }
-</script>
-
-<!--{/if}-->
-
-<header class="header">
-
-    <!--{if $_G['setting']['domain']['app']['mobile']}-->
-    {eval $nav = 'http://'.$_G['setting']['domain']['app']['mobile'];}
-    <!--{else}-->
-    {eval $nav = "forum.php";}
-    <!--{/if}-->
-    <h1 class="sxplogo fl">
-        <a title="$_G[setting][bbname]" href="$nav"><img src="$_G['style'][styleimgdir]/logo.png" /></a>
-    </h1>
-    <div class="headul">
-
-        <!--{if $_G['setting']['mobile']['mobilehotthread']}-->
-        <em><a class="menu4 fr" href="forum.php?mod=guide&view=hot" class="icon_hotthread">{lang hot_thread}</a></em>
-        <!--{/if}-->
-
-        <em><a class="menu1 fr" href="search.php?mod=forum" class="icon_search">{lang search}</a></em>
-
-        <em><a class="menu3 fr" href="<!--{if $_G[uid]}-->home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1<!--{else}-->member.php?mod=logging&action=login<!--{/if}-->" class="icon_userinfo">{lang user_info}</a></em>
-        <!--{if $_G[member][newpm]}--><span class="icon_msg"></span>
-        <!--{/if}-->
-        <em><a class="menu2 fr" href="forum.php?forumlist=1" class="icon_threadlist">{lang forum_list}</a></em>
-
-    </div>
-
-</header>
-<!-- header end -->
-
-<!--{hook/index_top_mobile}-->
-<div class="container cfix">
-    <!-- main forumlist start -->
-
-    <!--{loop $catlist $key $cat}-->
-    <div class="catlist">
-        <div class="subforumshow cfix" href="#sub_forum_$cat[fid]">
-            <span class="o y">
-			<img src="$_G['style'][styleimgdir]/collapsed_<!--{if !$_G[setting][mobile][mobileforumview]}-->yes<!--{else}-->no<!--{/if}-->.png?t">
-		</span>
-            <h2>$cat[name]</h2>
-        </div>
-        <div id="sub_forum_$cat[fid]" class="sub_forum">
-            <ul>
-                <!--{loop $cat[forums] $forumid}-->
-                <!--{eval $forum=$forumlist[$forumid];}-->
-                <li class="cfix">
-                    <div class="f_icon">
-                        <!--{if $forum[icon]}-->
-                        $forum[icon]
-                        <!--{else}-->
-                        <img src="$_G['style'][styleimgdir]/forum{if $forum[folder]}_new{/if}.gif" alt="$forum[name]" />
-                        <!--{/if}-->
-                    </div>
-                    <a class="forum_a" href="forum.php?mod=forumdisplay&fid={$forum['fid']}">
-                        <h3>
-                            <span class="y f_count"> <!--{if $forum[posts]}--><!--{echo dnumber($forum[threads])}--> / <!--{echo dnumber($forum[posts])}--><!--{/if}--></span> {$forum[name]}
-
-                        </h3>
-                        <p>$forum[description]</p>
-                    </a>
-                </li>
-                <!--{/loop}-->
-            </ul>
-        </div>
-    </div>
-    <!--{/loop}-->
-
-    <!-- main forumlist end -->
-    <!--{hook/index_middle_mobile}-->
-    <script type="text/javascript">
-        (function() {
-            <!--{if !$_G[setting][mobile][mobileforumview]}-->
-            $('.sub_forum').css('display', 'block');
-            <!--{else}-->
-            $('.sub_forum').css('display', 'none');
-            <!--{/if}-->
-            $('.subforumshow').on('click', function() {
-                var obj = $(this);
-                var subobj = $(obj.attr('href'));
-                if (subobj.css('display') == 'none') {
-                    subobj.css('display', 'block');
-                    obj.find('img').attr('src', "$_G['style'][styleimgdir]/collapsed_yes.png");
-                } else {
-                    subobj.css('display', 'none');
-                    obj.find('img').attr('src', "$_G['style'][styleimgdir]/collapsed_no.png");
-                }
-            });
-        })();
-    </script>
-
-    <!--{/if}-->
-</div>
+<!--{if $_G['setting']['mobile']['mobilehotthread'] && $_GET['forumlist'] != 1}-->
+<!--{eval dheader('Location:forum.php?mod=guide&view=hot');exit;}-->
+<!--{/if}-->
+<!--{template common/header}-->
+
+<script type="text/javascript">
+    function getvisitclienthref() {
+        var visitclienthref = '';
+        if (ios) {
+            visitclienthref = 'https://itunes.apple.com/cn/app/zhang-shang-lun-tan/id489399408?mt=8';
+        } else if (andriod) {
+            visitclienthref = 'http://www.discuz.net/mobile.php?platform=android';
+        }
+        return visitclienthref;
+    }
+    // var userAgent = navigator.userAgent;
+    // console.log(userAgent);
+    // if (/Android/i.test(userAgent)) {
+    //     //是否為Android
+    // } else if (/iPhone|iPad/i.test(userAgent)) {
+    //     //是否為iPhone或iPad
+    // } else if (/Windows/i.test(userAgent)) {
+    //     //使否是用電腦觀看
+    // }
+</script>
+
+<!--{if $_GET['visitclient']}-->
+
+<header class="header">
+    <div class="nav">
+        <span>{lang warmtip}</span>
+    </div>
+</header>
+<div class="cl">
+    <div class="clew_con">
+        <h2 class="tit">{lang zsltmobileclient}</h2>
+        <p>{lang visitbbsanytime}<input class="redirect button" id="visitclientid" type="button" value="{lang clicktodownload}" href="" /></p>
+        <h2 class="tit">{lang iphoneandriodmobile}</h2>
+        <p>{lang visitwapmobile}<input class="redirect button" type="button" value="{lang clicktovisitwapmobile}" href="$_GET[visitclient]" /></p>
+    </div>
+</div>
+<script type="text/javascript">
+    var visitclienthref = getvisitclienthref();
+    if (visitclienthref) {
+        $('#visitclientid').attr('href', visitclienthref);
+    } else {
+        window.location.href = '$_GET[visitclient]';
+    }
+</script>
+
+<!--{else}-->
+
+<!-- header start -->
+<!--{if $showvisitclient}-->
+
+<div class="visitclienttip vm" style="display:block;">
+    <a href="javascript:;" id="visitclientid" class="btn_download">{lang downloadnow}</a>
+    <p>
+        {lang downloadzslttoshareview}
+    </p>
+</div>
+<script type="text/javascript">
+    var visitclienthref = getvisitclienthref();
+    if (visitclienthref) {
+        $('#visitclientid').attr('href', visitclienthref);
+        $('.visitclienttip').css('display', 'block');
+    }
+</script>
+
+<!--{/if}-->
+
+<header class="header">
+
+    <!--{if $_G['setting']['domain']['app']['mobile']}-->
+    {eval $nav = 'http://'.$_G['setting']['domain']['app']['mobile'];}
+    <!--{else}-->
+    {eval $nav = "forum.php";}
+    <!--{/if}-->
+    <h1 class="sxplogo fl">
+        <a title="$_G[setting][bbname]" href="$nav"><img src="$_G['style'][styleimgdir]/logo.png" /></a>
+    </h1>
+    <div class="headul">
+
+        <!--{if $_G['setting']['mobile']['mobilehotthread']}-->
+        <em><a class="menu4 fr" href="forum.php?mod=guide&view=hot" class="icon_hotthread">{lang hot_thread}</a></em>
+        <!--{/if}-->
+
+        <em><a class="menu1 fr" href="search.php?mod=forum" class="icon_search">{lang search}</a></em>
+
+        <em><a class="menu3 fr" href="<!--{if $_G[uid]}-->home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1<!--{else}-->member.php?mod=logging&action=login<!--{/if}-->" class="icon_userinfo">{lang user_info}</a></em>
+        <!--{if $_G[member][newpm]}--><span class="icon_msg"></span>
+        <!--{/if}-->
+        <em><a class="menu2 fr" href="forum.php?forumlist=1" class="icon_threadlist">{lang forum_list}</a></em>
+
+    </div>
+
+</header>
+<!-- header end -->
+
+<!--{hook/index_top_mobile}-->
+<div class="container cfix">
+    <!-- main forumlist start -->
+
+    <!--{loop $catlist $key $cat}-->
+    <div class="catlist">
+        <div class="subforumshow cfix" href="#sub_forum_$cat[fid]">
+            <span class="o y">
+			<img src="$_G['style'][styleimgdir]/collapsed_<!--{if !$_G[setting][mobile][mobileforumview]}-->yes<!--{else}-->no<!--{/if}-->.png?t">
+		</span>
+            <h2>$cat[name]</h2>
+        </div>
+        <div id="sub_forum_$cat[fid]" class="sub_forum">
+            <ul>
+                <!--{loop $cat[forums] $forumid}-->
+                <!--{eval $forum=$forumlist[$forumid];}-->
+                <li class="cfix">
+                    <div class="f_icon">
+                        <!--{if $forum[icon]}-->
+                        $forum[icon]
+                        <!--{else}-->
+                        <img src="$_G['style'][styleimgdir]/forum{if $forum[folder]}_new{/if}.gif" alt="$forum[name]" />
+                        <!--{/if}-->
+                    </div>
+                    <a class="forum_a" href="forum.php?mod=forumdisplay&fid={$forum['fid']}">
+                        <h3>
+                            <span class="y f_count"> <!--{if $forum[posts]}--><!--{echo dnumber($forum[threads])}--> / <!--{echo dnumber($forum[posts])}--><!--{/if}--></span> {$forum[name]}
+
+                        </h3>
+                        <p>$forum[description]</p>
+                    </a>
+                </li>
+                <!--{/loop}-->
+            </ul>
+        </div>
+    </div>
+    <!--{/loop}-->
+
+    <!-- main forumlist end -->
+    <!--{hook/index_middle_mobile}-->
+    <script type="text/javascript">
+        (function() {
+            <!--{if !$_G[setting][mobile][mobileforumview]}-->
+            $('.sub_forum').css('display', 'block');
+            <!--{else}-->
+            $('.sub_forum').css('display', 'none');
+            <!--{/if}-->
+            $('.subforumshow').on('click', function() {
+                var obj = $(this);
+                var subobj = $(obj.attr('href'));
+                if (subobj.css('display') == 'none') {
+                    subobj.css('display', 'block');
+                    obj.find('img').attr('src', "$_G['style'][styleimgdir]/collapsed_yes.png");
+                } else {
+                    subobj.css('display', 'none');
+                    obj.find('img').attr('src', "$_G['style'][styleimgdir]/collapsed_no.png");
+                }
+            });
+        })();
+    </script>
+
+    <!--{/if}-->
+</div>
 <!--{template common/footer}-->

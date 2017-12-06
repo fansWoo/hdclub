@@ -10,7 +10,6 @@
             type: 'get',
         })
         .done(function(response) {
-            console.log(response);
             if (response.indexOf("已收藏") != -1) {
                 $('.favbtn>img').attr('src', "$_G['style'][styleimgdir]/icon_fav_full.png");
             };

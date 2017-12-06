@@ -1418,8 +1418,8 @@ CSS 寫作注意事項：
 #fjump_menu { padding: 7px 0 10px 10px; }
 	#fjump_menu .sch { position: absolute; top: 6px; right: 10px; }
 .jump_bdl { overflow: hidden; }
-	.jump_bdl li { float: left; overflow-x: hidden; overflow-y: auto; margin-right: 10px; padding: 5px; width: 178px; height: 300px; border: 1px solid {WRAPBORDERCOLOR}; background: {WRAPBG}; }
-		.ie6 .jump_bdl li { clear: none !important; float: left !important; width: 178px !important; }
+	.jump_bdl li { float: left; overflow-x: hidden; overflow-y: auto; margin-right: 10px; padding: 5px; width: 170px; height: 300px; border: 1px solid {WRAPBORDERCOLOR}; background: {WRAPBG}; }
+		.ie6 .jump_bdl li { clear: none !important; float: left !important; width: 170px !important; }
 	.bdl_title li { float: left; margin-right: 9px; padding: 0 1px; width: 189px; height: 33px; line-height: 23px; font-weight: 700; }
 		.bdl_title .px { width: 80px; }
 	.jump_bdl p { overflow: hidden; height: 25px; line-height: 25px; }
