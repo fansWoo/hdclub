@@ -1,28 +1,16 @@
 <?php
 
-/**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
- *      This is NOT a freeware, use is subject to license terms
- *
- *      $Id: dbbak.php 23143 2011-06-21 07:22:50Z svn_project_zhangjie $
- */
+/*
+	[UCenter] (C)2001-2099 Comsenz Inc.
+	This is NOT a freeware, use is subject to license terms
 
-@define('IN_API', true);
-@define('CURSCRIPT', 'api');
+	$Id: dbbak.php 17033 2008-12-04 02:24:03Z zhaoxiongfei $
+*/
 
 error_reporting(0);
 
-$code = @$_GET['code'];
-$apptype = @$_GET['apptype'];
-
-$apptype = strtolower($apptype);
-
 define('IN_COMSENZ', TRUE);
-if($apptype == 'discuzx') {
-	define('ROOT_PATH', dirname(__FILE__).'/../../');
-} else {
-	define('ROOT_PATH', dirname(__FILE__).'/../');
-}
+define('ROOT_PATH', dirname(__FILE__).'/../');
 define('EXPLOR_SUCCESS', 0);
 define('IMPORT_SUCCESS', 0);
 define('DELETE_SQLPATH_SUCCESS', 4);
@@ -39,6 +27,11 @@ define('DB_API_NO_MATCH', 9);
 $sizelimit = 2000;
 $usehex = true;
 
+$code = @$_GET['code'];
+$apptype = @$_GET['apptype'];
+
+$apptype = strtolower($apptype);
+
 if($apptype == 'discuz') {
 	require ROOT_PATH.'./config.inc.php';
 } elseif($apptype == 'uchome' || $apptype == 'supesite' || $apptype == 'supev') {
@@ -49,9 +42,6 @@ if($apptype == 'discuz') {
 	require ROOT_PATH.'./data/inc.config.php';
 } elseif($apptype == 'ecshop') {
 	require ROOT_PATH.'./data/config.php';
-} elseif($apptype == 'discuzx') {
-	require ROOT_PATH.'./config/config_global.php';
-	require ROOT_PATH.'./config/config_ucenter.php';
 } else {
 	api_msg('db_api_no_match', $apptype);
 }
@@ -200,7 +190,7 @@ class dbstuff {
 	}
 }
 
-$db = new dbstuff;
+$db = new dbstuff();
 $version = '';
 if($apptype == 'discuz') {
 
@@ -240,7 +230,7 @@ if($apptype == 'discuz') {
 		$cfg['pass'] = urldecode($cfg['pass']);
 	}
 	$cfg['user'] = urldecode($cfg['user']);
-    $cfg['path'] = str_replace('/', '', $cfg['path']);
+	$cfg['path'] = str_replace('/', '', $cfg['path']);
 
 	$db->connect($cfg['host'].':'.$cfg['port'], $cfg['user'], $cfg['pass'], $cfg['path'], $dbcharset, 0, $tablepre);
 
@@ -249,7 +239,7 @@ if($apptype == 'discuz') {
 	define('BACKUP_DIR', ROOT_PATH.'data/backup/');
 	$tablepre = $tablepre;
 	if(empty($dbcharset)) {
-		$dbcharset = in_array(strtolower($_config['output']['charset']), array('gbk', 'big5', 'utf-8')) ? str_replace('-', '', CHARSET) : '';
+		$dbcharset = in_array(strtolower($charset), array('gbk', 'big5', 'utf-8')) ? str_replace('-', '', $charset) : '';
 	}
 	$db->connect($dbhost, $dbuser, $dbpw, $dbname, $dbcharset, $pconnect, $tablepre);
 
@@ -259,18 +249,6 @@ if($apptype == 'discuz') {
 	$tablepre = $prefix;
 	$dbcharset = 'utf8';
 	$db->connect($db_host, $db_user, $db_pass, $db_name, $dbcharset, 0, $tablepre);
-
-} elseif($apptype == 'discuzx') {
-
-	define('BACKUP_DIR', ROOT_PATH.'data/');
-	extract($_config['db']['1']);
-	if(empty($dbcharset)) {
-		$dbcharset = in_array(strtolower(CHARSET), array('gbk', 'big5', 'utf-8')) ? str_replace('-', '', $_config['output']['charset']) : '';
-	}
-	$db->connect($dbhost, $dbuser, $dbpw, $dbname, $dbcharset, $pconnect, $tablepre);
-	define('IN_DISCUZ', true);
-	include ROOT_PATH.'source/discuz_version.php';
-	$version = DISCUZ_VERSION;
 
 }
 
@@ -293,22 +271,6 @@ if($get['method'] == 'export') {
 			}
 		}
 	}
-	if($apptype == 'discuzx') {
-		$query = $db->query("SELECT datatables FROM {$tablepre}common_plugin WHERE datatables<>''");
-		while($plugin = $db->fetch_array($query)) {
-			foreach(explode(',', $plugin['datatables']) as $table) {
-				if($table = trim($table)) {
-					$tables[] = $table;
-				}
-			}
-		}
-	}
-
-	$memberexist = array_search("{$tablepre}common_member", $tables);
-	if($memberexist !== FALSE) {
-		unset($tables[$memberexist]);
-		array_unshift($tables, "{$tablepre}common_member");
-	}
 
 	$get['volume'] = isset($get['volume']) ? intval($get['volume']) : 0;
 	$get['volume'] = $get['volume'] + 1;
@@ -323,7 +285,7 @@ if($get['method'] == 'export') {
 	} elseif(!is_dir(BACKUP_DIR.'./'.$get['sqlpath'])) {
 		if(!mkdir(BACKUP_DIR.'./'.$get['sqlpath'], 0777)) {
 			api_msg('mkdir_error', 'make dir error:'.BACKUP_DIR.'./'.$get['sqlpath']);
-		}
+		}		
 	}
 
 	if(!isset($get['backupfilename']) || empty($get['backupfilename'])) {
@@ -334,11 +296,6 @@ if($get['method'] == 'export') {
 	$get['tableid'] = isset($get['tableid']) ? intval($get['tableid']) : 0;
 	$get['startfrom'] = isset($get['startfrom']) ? intval($get['startfrom']) : 0;
 
-	if(!$get['tableid'] && $get['volume'] == 1) {
-		foreach($tables as $table) {
-			$sqldump .= sqldumptablestruct($table);
-		}
-	}
 	$complete = TRUE;
 	for(; $complete && $get['tableid'] < count($tables) && strlen($sqldump) + 500 < $sizelimit * 1000; $get['tableid']++) {
 		$sqldump .= sqldumptable($tables[$get['tableid']], strlen($sqldump));
@@ -351,7 +308,7 @@ if($get['method'] == 'export') {
 	$dumpfile = BACKUP_DIR.$get['sqlpath'].'/'.$get['backupfilename'].'-'.$get['volume'].'.sql';
 	if(trim($sqldump)) {
 		$sqldump = "$idstring".
-			"# <?exit();?>\n".
+			"# <?php exit();?>\n".
 			"# $apptype Multi-Volume Data Dump Vol.$get[volume]\n".
 			"# Time: $time\n".
 			"# Type: $apptype\n".
@@ -462,7 +419,7 @@ if($get['method'] == 'export') {
 	$str .= "</root>";
 	echo $str;
 	exit;
-
+	
 } elseif($get['method'] == 'delete') {
 
 	$sqlpath = trim($get['sqlpath']);
@@ -592,30 +549,6 @@ function encode_arr($get) {
 	return _authcode($tmp, 'ENCODE', UC_KEY);
 }
 
-function sqldumptablestruct($table) {
-	global $db;
-
-	$createtable = $db->query("SHOW CREATE TABLE $table", 'SILENT');
-
-	if(!$db->error()) {
-		$tabledump = "DROP TABLE IF EXISTS $table;\n";
-	} else {
-		return '';
-	}
-
-	$create = $db->fetch_row($createtable);
-
-	if(strpos($table, '.') !== FALSE) {
-		$tablename = substr($table, strpos($table, '.') + 1);
-		$create[1] = str_replace("CREATE TABLE $tablename", 'CREATE TABLE '.$table, $create[1]);
-	}
-	$tabledump .= $create[1];
-
-	$tablestatus = $db->fetch_first("SHOW TABLE STATUS LIKE '$table'");
-	$tabledump .= ($tablestatus['Auto_increment'] ? " AUTO_INCREMENT=$tablestatus[Auto_increment]" : '').";\n\n";
-	return $tabledump;
-}
-
 function sqldumptable($table, $currsize = 0) {
 	global $get, $db, $sizelimit, $startrow, $extendins, $sqlcompat, $sqlcharset, $dumpcharset, $usehex, $complete, $excepttables;
 
@@ -635,6 +568,30 @@ function sqldumptable($table, $currsize = 0) {
 			$tablefields[] = $fieldrow;
 		}
 	}
+	if(!$get['startfrom']) {
+
+		$createtable = $db->query("SHOW CREATE TABLE $table", 'SILENT');
+
+		if(!$db->error()) {
+			$tabledump = "DROP TABLE IF EXISTS $table;\n";
+		} else {
+			return '';
+		}
+
+		$create = $db->fetch_row($createtable);
+
+		if(strpos($table, '.') !== FALSE) {
+			$tablename = substr($table, strpos($table, '.') + 1);
+			$create[1] = str_replace("CREATE TABLE $tablename", 'CREATE TABLE '.$table, $create[1]);
+		}
+		$tabledump .= $create[1];
+
+
+		$tablestatus = $db->fetch_first("SHOW TABLE STATUS LIKE '$table'");
+		$tabledump .= ($tablestatus['Auto_increment'] ? " AUTO_INCREMENT=$tablestatus[Auto_increment]" : '').";\n\n";
+
+	}
+
 
 	$tabledumped = 0;
 	$numrows = $offset;
@@ -770,5 +727,3 @@ function _authcode($string, $operation = 'DECODE', $key = '', $expiry = 0) {
 function strexists($haystack, $needle) {
 	return !(strpos($haystack, $needle) === FALSE);
 }
-
-?>

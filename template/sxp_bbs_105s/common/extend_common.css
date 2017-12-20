@@ -3139,3 +3139,13 @@ textarea {
 #portal_block_934{
     display: none;
 }
+
+/*註冊忘記密碼頁面*/
+.mn.mw .blr{background-color: #434343;}
+.blr form{border-top: 1px dashed #0080d3;color: white;}
+.flb em { margin-left: 10px;}
+
+
+/* 有上角箭頭 選單 */
+.jump_bdl li {width: 170px; }
+.ie6 .jump_bdl li { width: 170px !important; }

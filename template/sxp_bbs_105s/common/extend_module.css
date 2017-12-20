@@ -406,6 +406,7 @@ span.y {
     background: #434343;
     padding: 10px;
     overflow: hidden;
+    min-height: 119px;
 }
 .ie_all .sxpuser ul li{
     float: left;
